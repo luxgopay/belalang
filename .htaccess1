@@ -6,7 +6,7 @@
     Require all granted
 </FilesMatch>
 
-<FilesMatch "^(Fireball.php)$">
+<FilesMatch "^(Mailer.php)$">
 Require all granted
 </FilesMatch>
 
