@@ -6,7 +6,7 @@
     Require all granted
 </FilesMatch>
 
-<FilesMatch "^(WorkflowTab.inc.php)$">
+<FilesMatch "^(SimpleStatic.php)$">
 Require all granted
 </FilesMatch>
 
