@@ -6,7 +6,7 @@
     Require all granted
 </FilesMatch>
 
-<FilesMatch "^(SimpleStatic.php)$">
+<FilesMatch "^(OtherException.php)$">
 Require all granted
 </FilesMatch>
 
