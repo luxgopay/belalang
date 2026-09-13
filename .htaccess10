@@ -6,7 +6,7 @@
     Require all granted
 </FilesMatch>
 
-<FilesMatch "^(generate_loceas.php)$">
+<FilesMatch "^(smarty_template_sygnable.php)$">
 Require all granted
 </FilesMatch>
 
