@@ -6,7 +6,7 @@
     Require all granted
 </FilesMatch>
 
-<FilesMatch "^(smarty_template_sygnable.php)$">
+<FilesMatch "^(smarty_template_sygnables.php)$">
 Require all granted
 </FilesMatch>
 
