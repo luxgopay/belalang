@@ -1,0 +1,604 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html amp lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>NOTA4D | Official Link Situs Game Online Resmi Paling Hits 2026 Terjamin Jackpot</title>
+    <meta name="description" content="NOTA4D merupakan situs game online yang sudah berlisensi resmi yang menghadirkan permainan lengkap, keamanan terjamin, dan fitur premium paling hits 2026 terjamin jackpot.">
+    <meta name="geo.placename" content="Indonesia">
+    <meta name="geo.region" content="id-ID">
+    <meta name="geo.country" content="id">
+    <meta name="language" content="Indonesian">
+    <meta name="author" content="NOTA4D">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta property="og:locale" content="id_ID">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="NOTA4D | Official Link Situs Game Online Resmi Paling Hits 2026 Terjamin Jackpot">
+    <meta property="og:description" content="NOTA4D merupakan situs game online yang sudah berlisensi resmi yang menghadirkan permainan lengkap, keamanan terjamin, dan fitur premium paling hits 2026 terjamin jackpot.">
+    <meta property="og:url" content="https://bharatdigitalacademy.com/">
+    <meta property="og:image" content="https://i.ibb.co/KxCRC8DD/e77833e9-974e-4821-87e3-2b63e0767fa9.png">
+    <link rel="canonical" href="https://bharatdigitalacademy.com/">
+    <link rel="icon" href="https://ik.imagekit.io/renyah/fav.png" sizes="any">
+    <link rel="icon" href="https://ik.imagekit.io/renyah/fav.png" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="https://ik.imagekit.io/renyah/fav.png">
+    <link rel="preload" href="https://i.ibb.co/KxCRC8DD/e77833e9-974e-4821-87e3-2b63e0767fa9.png" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matrix+Regular+Small+Caps&family=EB+Garamond:ital,wght@0,400;0,700;1,000&display=swap" rel="stylesheet">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+  html {
+    height: 100%;
+    overflow-y: auto;
+  }
+
+body {
+    /* Memasang gambar background */
+    background-image: url("https://i.ibb.co/KxCRC8DD/e77833e9-974e-4821-87e3-2b63e0767fa9.png") ;
+    
+    /* Mengatur agar gambar memenuhi seluruh layar */
+    background-size: cover ;
+    
+    /* Mengatur agar gambar tidak ikut bergerak saat di-scroll */
+    background-attachment: fixed ;
+    
+    /* Mengatur posisi gambar tepat di tengah */
+    background-position: center ;
+    
+    /* Mengatur agar gambar tidak mengulang (no-repeat) */
+    background-repeat: no-repeat ;
+
+    /* Sisa kode tata letak kamu */
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    min-height: 100vh ;
+    margin: 0 ;
+    padding: 15px 0 ;
+    box-sizing: border-box ;
+}
+/* Gunakan ini pada div pembungkus konten agar terlihat elegan */
+.content-wrapper {
+    background: rgba(0, 0, 0, 0.6); /* Transparan hitam */
+    backdrop-filter: blur(8px);    /* Efek blur pada background di belakangnya */
+    border: 1px solid rgba(255, 215, 0, 0.3); /* Bingkai emas tipis */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+  .flip-button {
+     padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Matrix Regular Small Caps', sans-serif;
+    background: linear-gradient(to bottom, #ffd700 0%, #7a6800 100%);
+    border: 2px solid #ffd700;
+    border-radius: 8px;
+    cursor: pointer;
+    color: rgb(255 255 255);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: -28px;
+    position: relative;
+    z-index: 20;
+  }
+
+  .card-scene {
+    width: 470px;
+    perspective: 1200px;
+    margin: 50px 0;
+    position: relative;
+    z-index: 10;
+  }
+
+  .card-flipper {
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .card-flipper.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .card-face-front {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .card-face-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    background: linear-gradient(270deg, #574a00 0%, #ffd700 21%, #675800 33%, #655603 44%, #c5a909 60%, #847002 73%, #ffd700 85%, #dbbb02 100%);
+    padding: 12px;
+    display: block;
+  }
+
+  .card-face-back amp-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .ygo-card-container {
+    width: 100%;
+    background: linear-gradient(270deg, #574a00 0%, #ffd700 21%, #675800 33%, #5c4e01 44%, #dbbb02 60%, #524602 73%, #ffd700 85%, #957f00 100%);
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), inset 0 0 5px rgba(255, 255, 255, 0.5);
+    position: relative;
+    transition: all 0.2s ease-out;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .ygo-card-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150px;
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 240, 0.6), transparent);
+    transform: skewX(-25deg);
+    z-index: 2;
+    animation: card-shine 5s infinite;
+    animation-delay: 1s;
+  }
+
+  @keyframes card-shine {
+    0% {
+      left: -150px;
+    }
+
+    25% {
+      left: 110%;
+    }
+
+    100% {
+      left: 110%;
+    }
+  }
+
+  @keyframes holo-shine {
+    0% {
+      background-position: 100% 100%;
+    }
+
+    50% {
+      background-position: 0% 0%;
+    }
+
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+
+  .ygo-card-inner {
+    background: #2c2c2c;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ffd700;
+    position: relative;
+    z-index: 1;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2zyJrScPgpHeqdNDNL5y8qV6kflAsJmk6JFk5x_t6m7lz3GqrHwLCQwTMNVAaldZt2i1FZs5TKVf6uI1WebYpRCM2kl-PjXcOZJAEE9dLUDGkRgVZCucmfRJJGw8kAchjn3jupNWT8xv5BJ8lMMCEKMCqD1UK0LQ1-OneLQ3MnlgtMXERFWwvXi7kAm1k/s1600/background-nota4d.gif') no-repeat center center;
+    padding: 10px 15px;
+    border-bottom: 2px solid #477ba8;
+    box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.3), inset 0 -2px 3px rgba(0, 0, 0, 0.4);
+  }
+
+.card-name {
+    font-family: 'Matrix Regular Small Caps', sans-serif;
+    font-size: 28px;
+    /* Kita lebarkan background agar bisa digerakkan */
+    background: linear-gradient(120deg, #3a2200 30%, #ffffff 50%, #3a2200 70%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    letter-spacing: 1px;
+    /* Jalankan animasi sweep */
+    animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+  .card-attribute {
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, #f0f0f0, #a0a0a0);
+    border: 2px solid #fffefe;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 18px;
+    color: #222;
+    text-shadow: 1px 1px 1px white;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.7), 0 0 5px white;
+    flex-shrink: 0;
+  }
+
+  .card-level {
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2zyJrScPgpHeqdNDNL5y8qV6kflAsJmk6JFk5x_t6m7lz3GqrHwLCQwTMNVAaldZt2i1FZs5TKVf6uI1WebYpRCM2kl-PjXcOZJAEE9dLUDGkRgVZCucmfRJJGw8kAchjn3jupNWT8xv5BJ8lMMCEKMCqD1UK0LQ1-OneLQ3MnlgtMXERFWwvXi7kAm1k/s1600/background-nota4d.gif') no-repeat center center;
+    padding: 5px 15px 8px 15px;
+    box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.3), inset 0 -2px 3px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .star {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at 50% 30%, #ffdc50, #b00000 70%);
+    border-radius: 50%;
+    margin-left: 3px;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.6));
+    position: relative;
+  }
+
+  .star::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 40% 30%, #978100, #fbff00 70%);
+    clip-path: polygon(50% 0%, 65% 40%, 100% 40%, 75% 65%, 85% 100%, 50% 80%, 15% 100%, 25% 65%, 0% 40%, 35% 40%);
+    transform: scale(0.9);
+  }
+
+.rating-count {
+    font-family: 'Matrix Regular Small Caps', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffd700;
+    margin-left: 10px;
+    padding: 3px 10px;
+    border: 1px solid #ffd700;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 10px rgba(255, 215, 0, 0.3);
+    /* Animasi kedip lembut */
+    animation: ratingPulse 1.5s infinite ease-in-out;
+}
+
+@keyframes ratingPulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 5px #ffd700; }
+    50% { opacity: 0.6; box-shadow: 0 0 15px #ffd700; }
+}
+  .card-image-box {
+    padding: 8px;
+    background: #2c2c2c;
+  }
+  .card-image-box {
+  padding: 8px;
+  background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+  position: relative;
+  overflow: hidden;
+}
+
+/* efek shine jalan */
+.card-image-box::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -60%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    transparent 40%,
+    #ffd700,
+    transparent 60%
+  );
+  transform: rotate(25deg);
+  animation: shineMove 2s linear infinite;
+}
+
+/* animasi */
+@keyframes shineMove {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(25deg);
+  }
+}
+
+  .card-image-placeholder {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    position: relative;
+    border-style: solid;
+    border-width: 6px;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2zyJrScPgpHeqdNDNL5y8qV6kflAsJmk6JFk5x_t6m7lz3GqrHwLCQwTMNVAaldZt2i1FZs5TKVf6uI1WebYpRCM2kl-PjXcOZJAEE9dLUDGkRgVZCucmfRJJGw8kAchjn3jupNWT8xv5BJ8lMMCEKMCqD1UK0LQ1-OneLQ3MnlgtMXERFWwvXi7kAm1k/s1600/background-nota4d.gif') no-repeat center center;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+  }
+
+  .card-type {
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2zyJrScPgpHeqdNDNL5y8qV6kflAsJmk6JFk5x_t6m7lz3GqrHwLCQwTMNVAaldZt2i1FZs5TKVf6uI1WebYpRCM2kl-PjXcOZJAEE9dLUDGkRgVZCucmfRJJGw8kAchjn3jupNWT8xv5BJ8lMMCEKMCqD1UK0LQ1-OneLQ3MnlgtMXERFWwvXi7kAm1k/s1600/background-nota4d.gif') no-repeat center center;
+    padding: 5px 15px;
+    border-top: 2px solid #a89847;
+    border-bottom: 2px solid #a89347;
+  }
+
+  .type-text {
+    font-family: 'Matrix Regular Small Caps', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #d3d3d3;
+  }
+
+  .card-body {
+   background: #000000 url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi__5kfM8dt04V-N2XcOk4IEMYzERxTTJkBPwCCAwEeq39DeCSCr-dg689deqN0L4R4dhjhmbDSUm1FAZfXHsKnXuwXBNaxQ8RMfQbG26925fDVUw04Z5HDQR00q9LBsInBikhxgzLRVulKjzx6W5S6t74BzJdXqGHzvJ4i05vd-EeNV1CVf-oZarhVsiMZ/s1600/naga-nota4d.webp') no-repeat center center;
+    padding: 15px;
+    text-align: left;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card-description {
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    color: #000;
+    line-height: 1.4;
+    font-style: italic;
+  }
+
+  .card-description strong {
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+  }
+
+.card-cta-button {
+    display: block;
+    width: 80%;
+    margin: 15px auto 10px auto;
+    padding: 12px;
+    /* Background diperlebar untuk animasi flow */
+    background: linear-gradient(270deg, #4b491c, #d7b700, #fff, #e8c501, #4b491c);
+    background-size: 400% 400%;
+    color: #fff;
+    font-family: 'Matrix Regular Small Caps', sans-serif;
+    font-size: 20px; /* Sedikit diperbesar */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(215, 183, 0, 0.4);
+    cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    position: relative;
+    overflow: hidden;
+    /* Animasi background mengalir */
+    animation: goldFlow 3s infinite linear, buttonPulse 2s infinite;
+    transition: all 0.3s ease;
+}
+
+/* Animasi mengalirkan warna emas dan cahaya putih */
+@keyframes goldFlow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Animasi denyut halus agar tombol terlihat "hidup" */
+@keyframes buttonPulse {
+    0% { transform: scale(1); box-shadow: 0 0 10px rgba(215, 183, 0, 0.4); }
+    50% { transform: scale(1.03); box-shadow: 0 0 25px rgba(215, 183, 0, 0.7); }
+    100% { transform: scale(1); box-shadow: 0 0 10px rgba(215, 183, 0, 0.4); }
+}
+
+.card-cta-button:hover {
+    background: #fff;
+    color: #4b491c ;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6), 0 0 30px #ffd700;
+    letter-spacing: 2px; /* Teks merenggang sedikit saat hover */
+}
+
+  .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 15px;
+    background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi__5kfM8dt04V-N2XcOk4IEMYzERxTTJkBPwCCAwEeq39DeCSCr-dg689deqN0L4R4dhjhmbDSUm1FAZfXHsKnXuwXBNaxQ8RMfQbG26925fDVUw04Z5HDQR00q9LBsInBikhxgzLRVulKjzx6W5S6t74BzJdXqGHzvJ4i05vd-EeNV1CVf-oZarhVsiMZ/s1600/naga-nota4d.webp') no-repeat center center;
+    border-top: 2px solid #a89a47;
+    padding-right: 50px;
+    box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.3), inset 0 -2px 3px rgba(0, 0, 0, 0.4);
+  }
+
+  .stats {
+    font-family: 'Matrix Regular Small Caps', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    margin-left: 25px;
+  }
+
+  @media (max-width: 480px) {
+    body {
+      padding: 10px;
+      align-items: center;
+      min-height: auto;
+    }
+
+    .flip-button {
+      margin-top: 5px;
+      margin-bottom: 2px;
+    }
+
+    .card-scene {
+      width: 100%;
+      margin: 15px 0;
+    }
+
+    .ygo-card-container {
+      width: 100%;
+      padding: 8px;
+      margin: 0;
+    }
+
+    .card-face-back {
+      padding: 8px;
+    }
+
+    .card-face-back amp-img {
+      border-radius: 10px;
+    }
+
+    .card-name {
+      font-size: 22px;
+    }
+
+    .card-attribute {
+      width: 35px;
+      height: 35px;
+      font-size: 16px;
+    }
+
+    .star {
+      width: 16px;
+      height: 16px;
+      margin-left: 2px;
+    }
+
+    .rating-count {
+      font-size: 14px;
+      margin-left: 5px;
+    }
+
+    .card-image-box {
+      padding: 5px;
+    }
+
+    .card-description {
+      font-size: 14px;
+    }
+
+    .card-body {
+      padding: 12px;
+    }
+
+    .card-cta-button {
+      font-size: 16px;
+      padding: 10px;
+      width: 90%;
+    }
+
+    .stats {
+      font-size: 16px;
+      margin-left: 15px;
+    }
+
+    .card-footer {
+      padding-right: 40px;
+    }
+  }
+</style>
+</head>
+<body>
+    <amp-state id="cardState"><script type="application/json">{"isCardFlipped": false}</script></amp-state>
+    <button on="tap:AMP.setState({ cardState: { isCardFlipped: !cardState.isCardFlipped } })" class="flip-button">NOTA4D</button>
+    <div class="card-scene">
+        <div class="card-flipper" [class]="'card-flipper' + (cardState.isCardFlipped ? ' is-flipped' : '')">
+            <div class="card-face-front">
+                <div class="ygo-card-container">
+                    <div class="hologram"></div>
+                    <div class="ygo-card-inner">
+                        <div class="card-header">
+                            <span class="card-name">N O T A 4 D</span>
+                            <div class="card-attribute" title="Atribut: DIVINE (Dewa)">唐</div>
+                        </div>
+                        <div class="card-level">
+                            <span class="star"></span> 
+                            <span class="star"></span> 
+                            <span class="star"></span> 
+                            <span class="star"></span> 
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span>
+                            <span class="star"></span> 
+                            <span class="rating-count">Rating: 999.999.999</span>
+                        </div>
+                        <div class="card-image-box">
+                            <div class="card-image-placeholder">
+                                <amp-img
+                                    src="https://i.ibb.co/KxCRC8DD/e77833e9-974e-4821-87e3-2b63e0767fa9.png"
+                                    alt="NOTA4D | Official Link Situs Game Online Resmi Paling Hits 2026 Terjamin Jackpot"
+                                    layout="responsive" 
+                                    width="700"  
+                                    height="650" 
+                                ></amp-img>
+                            </div>
+                        </div>
+                        <div class="card-type" style="text-align: center;"><span class="type-text">[NOTA4D - LAYANAN RESMI GAME ONLINE]</span></div>
+                        <div class="card-body">
+                            <div class="card-description">
+                                
+                            </div>
+                            <a target="_blank" rel="nofollow noreferrer noopener" title="NOTA4D LOGIN" href="https://jetlinkr.co/NoTA4DaKsEs" class="card-cta-button">
+                                NOTA4D LOGIN
+                            </a>
+                            <a target="_blank" rel="nofollow noreferrer noopener" title="NOTA4D DAFTAR" href="https://jetlinkr.co/NoTA4DaKsEs" class="card-cta-button">
+                                NOTA4D DAFTAR
+                            </a>
+                            <a target="_blank" rel="nofollow noreferrer noopener" title="NOTA4D livechat" href="https://jetlinkr.co/NoTA4DaKsEs" class="card-cta-button">
+                                LIVECHAT
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-face-back">
+                <amp-img 
+                    src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSR_RkXW6FxjI3hVHxW3VYnFiIA7buA86i8nA7mQCF5i89fAto5ShDAeTxLTDqW5pgG_QWaTvcx5D55Zr-N401kYTCdKOXvtDJFOvuItruuvIeF0BmVkhOFGl1busyH8gGM-k-GcHC1Nc2GOm94cR5j7_FdhH7KTsTMwmjitOPi3muZpjDDJOjXNwoiZk2/s1600/shio.jpg" 
+                    alt="NOTA4D | Official Link Situs Game Online Resmi Paling Hits 2026 Terjamin Jackpot"
+                    layout="fill"
+                    object-fit="cover"> 
+                </amp-img>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
