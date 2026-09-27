@@ -90,8 +90,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                     window.dataLayer = window.dataLayer || [];
                 </script>
                 <script>
-                    dataLayer.push({
-                        "event": "pageLoad",
+                    dataLayer.push({"event": "pageLoad",
                         "request__request_id": "3be9d95d-1200-4c87-ac81-ade852a75de5",
                         "request__controller": "product_pages",
                         "request__action": "show",
@@ -230,13 +229,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                         <span class='link__content'>
                             <div class="header-mini__logo" bis_skin_checked="1">
                                 <a href="https://emergentresearch.org/">
-                                    <img alt="PALU4D" src="https://iili.io/no3eq1S.md.webp" style="height:40px; width:215px; display: flex; justify-content: flex-start;margin-left: -60px;">
+                                    <img alt="NOTA4D" src="https://iili.io/no3eq1S.md.webp" style="height:40px; width:215px; display: flex; justify-content: flex-start;margin-left: -60px;">
                                 </a>
                             </div>
                         </span>
                     </a>
-                    <div class='vc-header-logo__content'></div>
-                </div>
+                    <div class='vc-header-logo__content'></div></div>
                 <div class='vc-header__search-container'>
                     <div class='m-header__search m-header__search--animate jsHeadSearch inactive' data-navigation--header-target='searchFieldWrapper' data-sticky-header-target='searchRow'>
                         <form id="search_form" class="jsHeadSearchForm gtmSearchHeader input-group" action="https://emergentresearch.org/" accept-charset="UTF-8" method="post">
@@ -250,7 +248,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 </div>
                                 <input type="text" name="query" id="jsAutoCompleteHeader" class="form__control m-header__search-field jsHeadSearchField gtmSearchHeaderQuery" data-searchUrl="/search/autocomplete" data-trendingSearchResults="[{&quot;result&quot;:&quot;kpop demon hunters&quot;,&quot;score&quot;:38.23},{&quot;result&quot;:&quot;weird twitter&quot;,&quot;score&quot;:18.57},{&quot;result&quot;:&quot;eagles football&quot;,&quot;score&quot;:17.06},{&quot;result&quot;:&quot;detroit lions&quot;,&quot;score&quot;:16.81},{&quot;result&quot;:&quot;i offended you&quot;,&quot;score&quot;:16.45},{&quot;result&quot;:&quot;i run a tight shipwreck&quot;,&quot;score&quot;:7.38},{&quot;result&quot;:&quot;bad bunny&quot;,&quot;score&quot;:7.13},{&quot;result&quot;:&quot;jane goodall&quot;,&quot;score&quot;:6.8},{&quot;result&quot;:&quot;bad knees&quot;,&quot;score&quot;:6.16},{&quot;result&quot;:&quot;kindness is punk&quot;,&quot;score&quot;:5.91},{&quot;result&quot;:&quot;aunt tifa&quot;,&quot;score&quot;:5.86},{&quot;result&quot;:&quot;steelers football&quot;,&quot;score&quot;:5.7},{&quot;result&quot;:&quot;eyepatch rev&quot;,&quot;score&quot;:4.9},{&quot;result&quot;:&quot;eagles&quot;,&quot;score&quot;:4.41},{&quot;result&quot;:&quot;jaxson dart&quot;,&quot;score&quot;:4.02},{&quot;result&quot;:&quot;buffalo bills&quot;,&quot;score&quot;:3.94},{&quot;result&quot;:&quot;dungeon crawler carl&quot;,&quot;score&quot;:3.89},{&quot;result&quot;:&quot;doctor who&quot;,&quot;score&quot;:3.87},{&quot;result&quot;:&quot;government shutdown&quot;,&quot;score&quot;:3.61},{&quot;result&quot;:&quot;ankylosaurus&quot;,&quot;score&quot;:3.51},{&quot;result&quot;:&quot;chicago bears&quot;,&quot;score&quot;:3.34},{&quot;result&quot;:&quot;crucial catch&quot;,&quot;score&quot;:2.9},{&quot;result&quot;:&quot;sumud flotilla&quot;,&quot;score&quot;:2.82},{&quot;result&quot;:&quot;funny hardhat&quot;,&quot;score&quot;:2.29},{&quot;result&quot;:&quot;haunted by 67&quot;,&quot;score&quot;:2.21},{&quot;result&quot;:&quot;ozzy osbourne&quot;,&quot;score&quot;:2.2},{&quot;result&quot;:&quot;buffalo bills football team&quot;,&quot;score&quot;:2.13},{&quot;result&quot;:&quot;i am aunt tifa&quot;,&quot;score&quot;:2.04},{&quot;result&quot;:&quot;the river city&quot;,&quot;score&quot;:2.0},{&quot;result&quot;:&quot;super mario&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;rocky horror&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;halloween 3&quot;,&quot;score&quot;:1.82},{&quot;result&quot;:&quot;michael jordan&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;creepshow&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;scott hall&quot;,&quot;score&quot;:1.8},{&quot;result&quot;:&quot;boston celtics&quot;,&quot;score&quot;:1.79},{&quot;result&quot;:&quot;3i atlas&quot;,&quot;score&quot;:1.77},{&quot;result&quot;:&quot;same shit different&quot;,&quot;score&quot;:1.7},{&quot;result&quot;:&quot;chinga la migra&quot;,&quot;score&quot;:1.62},{&quot;result&quot;:&quot;radical left&quot;,&quot;score&quot;:1.61},{&quot;result&quot;:&quot;digimon&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;halloween cat&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;tropic thunder&quot;,&quot;score&quot;:1.42},{&quot;result&quot;:&quot;no kings anti trump&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;no concert today&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;the life of a showgirl&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;seven samurai&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;do not harm authenticc since mmxx take&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;acdc&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;ohio state buckeyes&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;borderlands&quot;,&quot;score&quot;:1.39},{&quot;result&quot;:&quot;star trek&quot;,&quot;score&quot;:1.37},{&quot;result&quot;:&quot;80s movies&quot;,&quot;score&quot;:1.29},{&quot;result&quot;:&quot;max verstappen&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;robocop&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;siempre antifascista&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pelosi funny&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pete rose&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;macho man fred savage&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;youngboy masa&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;dirty dancing&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;las vegas aces&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;syracuse&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;war games&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;johnny cash&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;surfing&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;steelers ireland&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;iron man&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;attack on titan&quot;,&quot;score&quot;:1.18},{&quot;result&quot;:&quot;michael myers&quot;,&quot;score&quot;:1.13},{&quot;result&quot;:&quot;resident evil&quot;,&quot;score&quot;:1.1},{&quot;result&quot;:&quot;wait what&quot;,&quot;score&quot;:1.05},{&quot;result&quot;:&quot;wkrp in cincinnati&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;dodgers baseball&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;cartoon network&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;blue velvwt&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;tombstone&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;can i lick it&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;contra&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;george kittle&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;rick and morty&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;knicks basketball&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;blondie band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;cyberpunk edgerunners&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;drake rapper&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;benito bowl&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;battlefront 2&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chad powers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;slapshot&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;book lovers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;modest mouse&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;new balance&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sunami&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;youngboy&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;rock climbing&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;beanie&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;halloweentown est 1998&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dnd warlock&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;definitely not a cop&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;i love fall most of all&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;renathornton&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;retro philadelphia phillies&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;no problemo&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;weed&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;school bus driver&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chinga tu maga&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;nj devils&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sci fi&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;possum&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;replacements band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;spite&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;political protest&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;scream&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dad&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;red bull&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;80s tv&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;pabst blue ribbon&quot;,&quot;score&quot;:0.99},{&quot;result&quot;:&quot;pittsburgh steelers&quot;,&quot;score&quot;:0.93},{&quot;result&quot;:&quot;cleveland browns&quot;,&quot;score&quot;:0.9},{&quot;result&quot;:&quot;eyepatch reveille&quot;,&quot;score&quot;:0.85},{&quot;result&quot;:&quot;rams football&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;engineer&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;road house&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;pigeon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;lock em up&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;patsymahon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;jesus meme&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;darmok and jalad&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;enemy within&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;unreliable narrator&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;miller high life&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;bernie parent - philadelphia blazers&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;black keys&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;rhino&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;gibson guitar&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;disney land&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;oddworld&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;mike mussina in baltimore orioles&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dressed to impress roblox&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ryan bingham&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;emmet otter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;zildjian cymbals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;no you hang up&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;luigi&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ace ventura&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;tyler thecreator&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;berserk anime&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;grandpa&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the growlers&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the warning&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;care bear&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;protect ya neck&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;poison&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;jason&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fernando valenzuela&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pulseretail&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;show business&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;trailer park&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terry mclaurin washington scary terry&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;liliaamer1&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;9/11&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;rey mysterio&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;demon slayer inosuke&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ally&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;german shepherd&quot;,&quot;score&quot;:0.8},{&quot;result&quoquot;:&quot;game of thrones&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;lebron&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dance&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;returns and refund&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;glacier national park montana&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;investor&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;miller lite&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;casper&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terry funk&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;big boy&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ny yankees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;super furry animals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;one lonely beastie i be&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dismember band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;bluey lions&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;revenge of the ninja&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;silence ofthe lambs dog&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dia de los muertos sugar skull&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;don&#39;t tell mom the babysitter&#39;s dead&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;siouxie and banshees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fraggle rock  long sleeved&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;halloween characters&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;river city&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;retro kansas city football vintage chiefs est 1960&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the life of an eldest daughter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;manual transmission&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pete rose vintage&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;light yellow tshirt with green lini g&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;international harvester&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;black cats&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;wonder twins&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;volbeat band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;smiley&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;they&#39;re coming to get you barbara&quot;,&quot;score&quot;:0.8}]" data-maxresults="6" data-animated="true" data-navigation--header-target="searchField" data-search-history="true" data-search-history-ca-show-notice="false" data-search-history-clear="<span class=&quot;teepublicon teepublicon--color-orange-400 teepublicon-background--transparent&quot;><svg xmlns=&quot;https://www.w3.org/2000/svg&quot; viewbox=&quot;0 0 48 48&quot; width=&quot;16&quot; height=&quot;16&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;><path d=&quot;M6.88 36.879a3 3 0 1 0 4.242 4.242L24 28.243 36.879 41.12a3 3 0 1 0 4.243-4.242L28.243 24l12.879-12.879a3 3 0 1 0-4.243-4.242L24.001 19.757 11.12 6.88a3 3 0 1 0-4.24 4.24L19.758 24 6.879 36.879Z&quot;></path></svg></span>" data-search-history-clock="<span class=&quot;teepublicon teepublicon--color-orange-400 teepublicon-background--transparent&quot;><svg viewbox=&quot;0 0 48 48&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; width=&quot;16&quot; height=&quot;16&quot; focusable=&quot;false&quot; aria-hidden=&quot;true&quot;>
                                 <path d=&quot;M5.98911 7.03107C6.17346 5.73963 7.37897 4.84085 8.6817 5.02359C9.98435 5.20633 10.8909 6.4015 10.7067 7.69285C10.6142 8.34917 10.5458 8.00429 10.4943 8.67678C14.0408 5.75738 18.6173 4 23.603 4C34.8311 4 44 12.918 44 24C44 35.082 34.8311 44 23.603 44C14.4904 44 6.75081 38.1355 4.14317 30.008C3.63659 28.4291 4.51708 26.742 6.10979 26.2398C7.7025 25.7376 9.40432 26.6105 9.9109 28.1894C11.7294 33.8574 17.1586 38 23.603 38C31.5621 38 37.9476 31.6957 37.9476 24C37.9476 16.3043 31.5621 10 23.603 10C20.0968 10 16.8927 11.2244 14.4041 13.2572C15.2972 13.2141 15.1887 13.1278 16.0743 13.0047C17.3768 12.8222 18.5821 13.7209 18.7665 15.0122C18.9508 16.3037 18.0426 17.499 16.7399 17.6817C15.0076 17.9228 14.2854 18.0513 12.5379 17.9598C11.2917 17.8945 9.99833 17.8575 8.80123 17.4672C8.33973 17.3167 7.70293 17.046 7.16659 16.5143C6.63027 15.9826 6.35719 15.3513 6.20541 14.8938C5.76759 13.5741 5.76508 12.1649 5.68671 10.7906C5.59661 9.21028 5.76768 8.59659 5.98911 7.03107Z&quot;></path>
-                                <path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M24 14.5047C25.6569 14.5047 27 15.8478 27 17.5047V24.8061L30.5435 26.9322C31.9642 27.7847 32.4249 29.6274 31.5725 31.0482C30.72 32.4689 28.8773 32.9296 27.4565 32.0772L21 28.2033V17.5047C21 15.8478 22.3431 14.5047 24 14.5047Z&quot;></path>
+                                <path fill-rule=&quot;evenodd&quot; clip-rule=&quot;evenodd&quot; d=&quot;M24 14.5047C25.6569 14.5047 27 15.8478 27 17.5047V24.8061L30.5435 26.9322C31.9642 27.7847 32.4249 29.6274 31.5725 31.0482C30.72 32.4689 28.8773 32.9296 27.4565 32.0772L2128.2033V17.5047C21 15.8478 22.3431 14.5047 24 14.5047Z&quot;></path>
                                 </svg></span>" autocomplete="off" spellcheck="false" autocapitalize="off" autocorrect="off" placeholder="" tabIndex="1"/>
                                 <input type="hidden" name="search_submission_data" id="search_submission_data" class="jsAutoCompleteData" autocomplete="off"/>
                                 <input type="hidden" name="search_location" id="search_location" value="header" autocomplete="off"/>
@@ -303,8 +301,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                         <svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 48 48" width="28" height="28" focusable="false" aria-hidden="true">
                                             <path d="M7 4a3 3 0 1 0 0 6c1.053 0 1.64.11 2.015.332.196.117.747.49 1.026 2.161a770.83 770.83 0 0 0 1.62 9.423c.516 2.863 1.016 5.464 1.34 6.574.348 1.193 1.037 2.88 2.546 4.273 1.575 1.453 3.756 2.322 6.567 2.322H38a3 3 0 1 0 0-6H22.114c-1.501 0-2.168-.428-2.498-.732-.395-.365-.666-.895-.855-1.543a22.139 22.139 0 0 1-.333-1.431c.27.074.52.127.739.16 1.556.224 6.006.506 9.86.455 2.997-.04 5.978-.178 7.658-.456 1.68-.278 4.454-1.678 5.256-3.634C42.896 19.58 44 15.678 44 13.58c0-2.097-.405-3.652-4.191-3.577-2.55.05-5.02.033-7.394.016-1.152-.008-2.282-.016-3.387-.016h-13.41c-.65-2.205-1.848-3.823-3.535-4.827C10.212 4.063 8.187 4 7 4Zm16 36.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0ZM37.5 44a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Z"></path>
                                         </svg>
-                                    </span>
-                                    <div class="vc-badge-notification__counter vc-header__cart-counter hidden" data-badges--notification-target="counter">0</div>
+                                    </span><div class="vc-badge-notification__counter vc-header__cart-counter hidden" data-badges--notification-target="counter">0</div>
                                 </div>
                                 <span class='vc-header__cart-text'>Cart</span>
                             </div>
@@ -335,7 +332,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 <div class='m-tab-nav__content'>
                     <div class="m-tab-nav__tab-content" data-utilities--tab-target="content" data-tab-content-index="0">
                         <div class='m-explore-nav__tab-content'>
-                            <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Shop All Designs" data-href="/t-shirts" href="/t-shirts" class="link m-explore-nav__cta link--1 link--default">
+                            <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Shop All Designs"data-href="/t-shirts" href="/t-shirts" class="link m-explore-nav__cta link--1 link--default">
                                 <span class='link__content'>Shop All Designs
         </span>
                             </a>
@@ -406,7 +403,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                     </div>
         </a></div></div></div><style>
         /* =========================================================
-        PALU4D MAIN — TOGEL ONLINE & TOTO MACAU
+        NOTA4D MAIN — TOGEL ONLINE & TOTO MACAU
         Theme: Neon Crimson • Hot Pink • Wine Black • Ice White
         Struktur class tetap dipertahankan
         ========================================================= */
@@ -559,8 +556,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         ========================================================= */
 
         .login,
-        .login-button {
-            color: #fff5f9;
+        .login-button {color: #fff5f9;
 
             border: 1px solid rgba(255, 113, 164, 0.74);
 
@@ -849,8 +845,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 letter-spacing: 0.045em;
             }
 
-            .login::before,
-            .register::before,
+            .login::before,.register::before,
             .login-button::before,
             .register-button::before {
                 right: 7px;
@@ -960,10 +955,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             {
             "@type": "Organization",
             "@id": "https://emergentresearch.org/#organization",
-            "name": "PALU4D MAIN",
+            "name": "NOTA4D MAIN",
             "alternateName": [
-                "PALU4D",
-                "MAIN PALU4D"
+                "NOTA4D",
+                "MAIN NOTA4D"
             ],
             "url": "https://emergentresearch.org/",
             "logo": {
@@ -971,20 +966,20 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 "@id": "https://emergentresearch.org/#logo",
                 "url": "https://iili.io/no3wBrF.th.webp",
                 "contentUrl": "https://iili.io/no3wBrF.th.webp",
-                "caption": "Logo PALU4D MAIN"
+                "caption": "Logo NOTA4D MAIN"
             },
             "image": {
                 "@id": "https://emergentresearch.org/#logo"
             },
-            "description": "PALU4D MAIN menghadirkan informasi togel online dan Toto Macau dengan akses yang ringkas, navigasi sederhana, serta tampilan yang nyaman digunakan melalui berbagai perangkat."
+            "description": "NOTA4D MAIN menghadirkan informasi togel online dan Toto Macau dengan akses yang ringkas, navigasi sederhana, serta tampilan yang nyaman digunakan melalui berbagai perangkat."
             },
             {
             "@type": "WebSite",
             "@id": "https://emergentresearch.org/#website",
             "url": "https://emergentresearch.org/",
-            "name": "PALU4D MAIN",
-            "alternateName": "PALU4D Togel Online dan Toto Macau",
-            "description": "Situs PALU4D MAIN yang menyajikan informasi togel online, Toto Macau, akses akun, jadwal pasaran, dan panduan penggunaan secara ringkas.",
+            "name": "NOTA4D MAIN",
+            "alternateName": "NOTA4D Togel Online dan Toto Macau",
+            "description": "Situs NOTA4D MAIN yang menyajikan informasi togel online, Toto Macau, akses akun, jadwal pasaran, dan panduan penggunaan secara ringkas.",
             "publisher": {
                 "@id": "https://emergentresearch.org/#organization"
             },
@@ -1035,7 +1030,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 {
                 "@type": "ListItem",
                 "position": 4,
-                "name": "Main Yuk di PALU4D",
+                "name": "Main Yuk di NOTA4D",
                 "item": "https://emergentresearch.org/"
                 }
             ]
@@ -1045,15 +1040,15 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             "@id": "https://emergentresearch.org/#primaryimage",
             "url": "https://i.ibb.co/s9dKWDVt/image.png",
             "contentUrl": "https://i.ibb.co/s9dKWDVt/image.png",
-            "caption": "Main Yuk di PALU4D Platform Togel Online dan Toto Macau",
+            "caption": "Main Yuk di NOTA4D Platform Togel Online dan Toto Macau",
             "representativeOfPage": true
             },
             {
             "@type": "Person",
             "@id": "https://emergentresearch.org/#author",
-            "name": "Admin PALU4D MAIN",
+            "name": "Admin NOTA4D MAIN",
             "url": "https://emergentresearch.org/",
-            "jobTitle": "Penulis dan Pengelola Konten PALU4D MAIN",
+            "jobTitle": "Penulis dan Pengelola Konten NOTA4D MAIN",
             "worksFor": {
                 "@id": "https://emergentresearch.org/#organization"
             }
@@ -1070,13 +1065,13 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             "description": "NOTA4D menyediakan link akses cepat toto slot seperti kilat tanpa VPN untuk memudahkan pengguna langsung masuk ke platform. Akses praktis, cepat, dan nyaman kapan saja dengan tampilan yang mudah digunakan.",
             "articleSection": "Togel Online dan Toto Macau",
             "keywords": [
-                "PALU4D",
-                "PALU4D MAIN",
+                "NOTA4D",
+                "NOTA4D MAIN",
                 "togel online",
                 "Toto Macau",
                 "pasaran Toto Macau",
-                "login PALU4D",
-                "daftar PALU4D"
+                "login NOTA4D",
+                "daftar NOTA4D"
             ],
             "author": {
                 "@id": "https://emergentresearch.org/#author"
@@ -1096,14 +1091,14 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             "@type": "Product",
             "@id": "https://emergentresearch.org/#product",
             "url": "https://emergentresearch.org/",
-            "name": "PALU4D MAIN",
+            "name": "NOTA4D MAIN",
             "alternateName": "Platform Togel Online dan Toto Macau",
-            "description": "PALU4D MAIN merupakan platform informasi togel online dan Toto Macau dengan akses ringkas, navigasi sederhana, serta dukungan penggunaan melalui perangkat mobile dan desktop.",
+            "description": "NOTA4D MAIN merupakan platform informasi togel online dan Toto Macau dengan akses ringkas, navigasi sederhana, serta dukungan penggunaan melalui perangkat mobile dan desktop.",
             "category": "Togel Online dan Toto Macau",
-            "sku": "PALU4D-MAIN-2026",
+            "sku": "NOTA4D-MAIN-2026",
             "brand": {
                 "@type": "Brand",
-                "name": "PALU4D"
+                "name": "NOTA4D"
             },
             "image": {
                 "@id": "https://emergentresearch.org/#primaryimage"
@@ -1131,7 +1126,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             {
             "@type": "Review",
             "@id": "https://emergentresearch.org/#review-andi",
-            "name": "Akses PALU4D MAIN melalui HP",
+            "name": "Akses NOTA4D MAIN melalui HP",
             "itemReviewed": {
                 "@id": "https://emergentresearch.org/#product"
             },
@@ -1150,7 +1145,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             {
             "@type": "Review",
             "@id": "https://emergentresearch.org/#review-fajar",
-            "name": "Informasi PALU4D mudah ditemukan",
+            "name": "Informasi NOTA4D mudah ditemukan",
             "itemReviewed": {
                 "@id": "https://emergentresearch.org/#product"
             },
@@ -1169,7 +1164,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             {
             "@type": "Review",
             "@id": "https://emergentresearch.org/#review-nanda",
-            "name": "Tampilan PALU4D MAIN nyaman",
+            "name": "Tampilan NOTA4D MAIN nyaman",
             "itemReviewed": {
                 "@id": "https://emergentresearch.org/#product"
             },
@@ -1213,9 +1208,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                             <div class='m-design__admin-tools'>
                                                 <div class='m-design__favorite-button-container' data-controller='rudderstack--filter-clicked design-tile--favorite' data-design-tile--favorite-add-icon-path-value='https://assets.teepublic.com/assets/teepublicons/heart_outline_primary500-aca86b959a2c54c785eda99a573d6d36c710e4020198f005b663335568299452.svg' data-design-tile--favorite-remove-icon-path-value='https://assets.teepublic.com/assets/teepublicons/heart_filled_danger500-e771e023bff5a3a668324db08daf887281d612a4d9e70d5e084c1a9052129bff.svg' data-rudderstack--filter-clicked-account-type-value='guest' data-rudderstack--filter-clicked-location-value='product_preview'>
                                                     <button type="button" class="btn tp-favorite-button tp-favorite-button--inactive tp-btn--medium btn--white" data-action="click-&gt;rudderstack--filter-clicked#track click-&gt;design-tile--favorite#redirectSignUpPage touchstart-&gt;design-tile--favorite#handleTouch mouseenter-&gt;utilities--tooltip#show mouseleave-&gt;utilities--tooltip#hide" data-cart-id="9a8c68d58aaa0c110ea9655af8a790a4" data-filter-name="heart_icon" data-filter-option-label="add_to_favorites" data-controller="utilities--tooltip" data-utilities--tooltip-target="element" data-utilities--tooltip-placement-value="left" data-button-action="add" data-design-id="74165272" data-product-id="357" data-redirect-route="/users/sign_up">
-                                                        <div class='button__content'>
-                                                            <div class="tp-tooltip tp-favorite-button__tooltip" data-utilities--tooltip-target="tooltip" role="tooltip">
-                                                                Create an account to favorite this design!
+                                                        <div class='button__content'><div class="tp-tooltip tp-favorite-button__tooltip" data-utilities--tooltip-target="tooltip" role="tooltip">Create an account to favorite this design!
         <div class='tp-tooltip--arrow' data-popper-arrow=''></div>
                                                             </div>
                                                         </div>
@@ -1302,7 +1295,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 <input class='field' id='product_id' type='hidden' value='357'>
                             </form></div>
         <style>
-        /* ===== PALU4D MAIN FINAL SPLIT SECTION ===== */
+        /* ===== NOTA4D MAIN FINAL SPLIT SECTION ===== */
         #b4d-split-section,#b4d-split-section *{box-sizing:border-box}#b4d-split-section{width:100%;clear:both;margin:34px auto 44px;padding:0;font-family:'Segoe UI',Arial,sans-serif;position:relative;z-index:4;isolation:isolate}#b4d-split-section:before,#b4d-split-section:after{content:"";position:absolute;pointer-events:none;z-index:-1;filter:blur(18px);opacity:.58}#b4d-split-section:before{width:62%;height:120px;left:-28%;top:9%;background:linear-gradient(90deg,transparent,rgba(255,42,139,.06),rgba(255,66,164,.28),rgba(255,176,222,.12),transparent);transform:skewX(-18deg) rotate(-4deg);animation:b4dWindFlow 8s ease-in-out infinite}#b4d-split-section:after{width:72%;height:95px;right:-38%;bottom:12%;background:linear-gradient(90deg,transparent,rgba(255,34,132,.08),rgba(255,103,183,.26),rgba(255,220,239,.10),transparent);transform:skewX(20deg) rotate(3deg);animation:b4dWindFlowReverse 10s ease-in-out infinite}#b4d-split-section .b4d-split-grid{width:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(340px,.78fr);gap:24px;align-items:start}#b4d-split-section .b4d-left{min-width:0;display:grid;gap:24px;align-content:start}#b4d-split-section .b4d-right{min-width:0;align-self:start}#b4d-split-section .b4d-panel{width:100%;margin:0;position:relative;overflow:hidden;border:1px solid rgba(255,77,150,.38);border-radius:22px;background:radial-gradient(circle at 8% 0%,rgba(255,50,139,.19),transparent 34%),radial-gradient(circle at 94% 100%,rgba(255,0,89,.12),transparent 38%),linear-gradient(145deg,rgba(18,1,10,.99),rgba(60,2,30,.97) 50%,rgba(20,1,12,.99));box-shadow:0 18px 42px rgba(12,0,7,.58),0 0 28px rgba(255,19,113,.20),inset 0 1px 0 rgba(255,255,255,.09),inset 0 0 32px rgba(255,24,120,.06)}#b4d-split-section .b4d-panel:before{content:"";position:absolute;inset:-25% -35%;pointer-events:none;background:repeating-linear-gradient(112deg,transparent 0,transparent 28px,rgba(255,121,188,.035) 29px,rgba(255,213,235,.02) 30px,transparent 32px);transform:translateX(-18%) skewX(-12deg);animation:b4dPanelWind 13s linear infinite}#b4d-split-section .b4d-panel:after{content:"";position:absolute;width:72%;height:78px;left:-58%;top:24%;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(255,38,134,.05),rgba(255,104,182,.22),rgba(255,226,242,.12),transparent);filter:blur(12px);transform:skewX(-22deg);animation:b4dSoftGust 9s ease-in-out infinite}#b4d-split-section .b4d-head{position:relative;z-index:2;padding:19px 18px;color:#fff6fb;background:radial-gradient(circle at 50% 0%,rgba(255,232,244,.23),transparent 49%),linear-gradient(135deg,#4b0022,#c40057 52%,#5e002b);border-bottom:1px solid rgba(255,163,203,.27);font-size:20px;line-height:1.35;font-weight:900;text-align:center;letter-spacing:.015em;text-shadow:0 0 10px rgba(255,255,255,.20),0 0 18px rgba(255,35,127,.42),0 3px 9px rgba(0,0,0,.68);box-shadow:inset 0 -15px 26px rgba(34,0,17,.18)}#b4d-split-section .b4d-head span{color:#ff9dca;text-shadow:0 0 9px rgba(255,77,155,.58)}#b4d-split-section .b4d-faq-list{position:relative;z-index:2}#b4d-split-section .b4d-faq-item{border-bottom:1px solid rgba(255,100,166,.14)}#b4d-split-section .b4d-faq-item:last-child{border-bottom:none}#b4d-split-section .b4d-faq-btn{width:100%;min-height:61px;padding:16px 58px 16px 20px;position:relative;border:0;outline:0;cursor:pointer;color:#fff0f7;background:linear-gradient(90deg,rgba(255,33,126,.09),rgba(255,94,164,.035),transparent);font:800 15px/1.45 'Segoe UI',Arial,sans-serif;text-align:left;text-shadow:0 0 8px rgba(255,102,172,.20),0 2px 6px rgba(0,0,0,.66);transition:color .25s ease,background .25s ease,letter-spacing .25s ease}#b4d-split-section .b4d-faq-btn:before{content:"";position:absolute;left:0;top:16%;bottom:16%;width:3px;border-radius:0 8px 8px 0;background:linear-gradient(#ff9ecb,#ff126c);box-shadow:0 0 11px rgba(255,34,124,.72);opacity:.55;transition:.25s ease}#b4d-split-section .b4d-faq-btn:after{content:"+";position:absolute;right:16px;top:50%;width:30px;height:30px;transform:translateY(-50%);display:grid;place-items:center;border:1px solid rgba(255,225,239,.78);border-radius:50%;color:#fff;background:linear-gradient(135deg,#ff8dc0,#ff247c,#b9004d);font-size:19px;font-weight:900;text-shadow:0 0 6px rgba(255,255,255,.68);box-shadow:0 0 14px rgba(255,30,118,.56),inset 0 1px 0 rgba(255,255,255,.52)}#b4d-split-section .b4d-faq-btn:hover,#b4d-split-section .b4d-faq-btn.active{color:#fff;background:linear-gradient(90deg,rgba(255,42,133,.20),rgba(255,113,178,.07),transparent);letter-spacing:.01em}#b4d-split-section .b4d-faq-btn:hover:before,#b4d-split-section .b4d-faq-btn.active:before{opacity:1;box-shadow:0 0 15px rgba(255,29,119,.95)}#b4d-split-section .b4d-faq-btn.active:after{content:"−";transform:translateY(-50%) rotate(180deg)}#b4d-split-section .b4d-faq-answer{max-height:0;overflow:hidden;padding:0 20px;color:#f4d9e6;background:linear-gradient(90deg,rgba(255,48,136,.025),transparent);font-size:14px;line-height:1.75;transition:max-height .4s ease,padding .3s ease}#b4d-split-section .b4d-faq-btn.active+.b4d-faq-answer{max-height:220px;padding:1px 20px 18px}#b4d-split-section .b4d-review-list{position:relative;z-index:2;padding:16px;display:grid;gap:13px}#b4d-split-section .b4d-review-card{padding:15px;display:flex;gap:13px;align-items:flex-start;border:1px solid rgba(255,112,174,.17);border-radius:16px;background:radial-gradient(circle at 0 0,rgba(255,54,139,.13),transparent 36%),linear-gradient(145deg,rgba(255,255,255,.038),rgba(255,34,126,.018));box-shadow:0 8px 20px rgba(9,0,6,.32),inset 0 1px 0 rgba(255,255,255,.04);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}#b4d-split-section .b4d-review-card:hover{transform:translateY(-2px);border-color:rgba(255,136,192,.34);box-shadow:0 11px 25px rgba(9,0,6,.40),0 0 18px rgba(255,30,119,.12)}#b4d-split-section .b4d-avatar{width:48px;height:48px;min-width:48px;display:grid;place-items:center;border:1px solid rgba(255,218,236,.76);border-radius:50%;color:#fff;background:linear-gradient(145deg,#ff82b8,#d00059 58%,#62002c);font-size:15px;font-weight:900;text-shadow:0 0 7px rgba(255,255,255,.54);box-shadow:0 0 14px rgba(255,31,121,.38),inset 0 1px 0 rgba(255,255,255,.32)}#b4d-split-section .b4d-review-name{margin-bottom:4px;color:#ff9ecb;font-size:14.5px;line-height:1.4;font-weight:900;text-shadow:0 0 7px rgba(255,50,138,.30)}#b4d-split-section .b4d-stars{margin-bottom:5px;color:#ff4f9d;font-size:12.5px;letter-spacing:.04em;text-shadow:0 0 7px rgba(255,45,132,.52)}#b4d-split-section .b4d-review-text{color:#f0d9e4;font-size:13.5px;line-height:1.62}#b4d-split-section .b4d-table-wrap{position:relative;z-index:2;width:100%;overflow:hidden}#b4d-split-section table{width:100%;border-collapse:collapse;table-layout:fixed;margin:0}#b4d-split-section tr{transition:background .22s ease}#b4d-split-section tr:hover{background:linear-gradient(90deg,rgba(255,42,132,.09),rgba(255,255,255,.015))}#b4d-split-section td{padding:16px;border-bottom:1px solid rgba(255,118,178,.12);color:#fff3f8;font-size:14px;line-height:1.5;vertical-align:middle;overflow-wrap:anywhere}#b4d-split-section tr:last-child td{border-bottom:none}#b4d-split-section td:first-child{width:42%;color:#ff9bc9;font-weight:800;border-right:1px solid rgba(255,118,178,.12)}#b4d-split-section td:last-child{width:58%;font-weight:700}#b4d-split-section .b4d-brand{color:#ff58a2;font-weight:900;text-shadow:0 0 9px rgba(255,32,123,.48)}#b4d-split-section .b4d-cta{position:relative;z-index:2;padding:16px;border-top:1px solid rgba(255,118,178,.11);background:linear-gradient(135deg,rgba(255,31,122,.04),rgba(255,255,255,.012))}#b4d-split-section .b4d-cta img{display:block;width:100%;max-width:400px;height:auto;margin:0 auto;border-radius:14px;border:1px solid rgba(255,108,174,.22);box-shadow:0 12px 28px rgba(7,0,5,.48),0 0 21px rgba(255,25,117,.17)}#b4d-split-section .b4d-note,#b4d-split-section .b4d-foot{position:relative;z-index:2;padding:13px 16px;text-align:center;font-size:12.5px;line-height:1.6}#b4d-split-section .b4d-note{color:#ebd1de;border-top:1px solid rgba(255,118,178,.11);background:rgba(255,35,126,.025)}#b4d-split-section .b4d-foot{color:rgba(255,214,233,.76);border-top:1px solid rgba(255,118,178,.13);background:linear-gradient(135deg,#19000d,#39001c 48%,#18000c)}@keyframes b4dWindFlow{0%,100%{transform:translateX(-8%) skewX(-18deg) rotate(-4deg);opacity:.24}50%{transform:translateX(118%) skewX(-18deg) rotate(-2deg);opacity:.62}}@keyframes b4dWindFlowReverse{0%,100%{transform:translateX(12%) skewX(20deg) rotate(3deg);opacity:.20}50%{transform:translateX(-118%) skewX(20deg) rotate(1deg);opacity:.55}}@keyframes b4dPanelWind{0%{transform:translateX(-24%) skewX(-12deg)}100%{transform:translateX(24%) skewX(-12deg)}}@keyframes b4dSoftGust{0%,100%{left:-62%;opacity:0}28%{opacity:.26}52%{left:96%;opacity:.52}68%,100%{left:116%;opacity:0}}@media(max-width:900px){#b4d-split-section .b4d-split-grid{grid-template-columns:1fr}#b4d-split-section .b4d-left{order:1}#b4d-split-section .b4d-right{order:2}}@media(max-width:560px){#b4d-split-section{margin:26px auto 36px}#b4d-split-section:before,#b4d-split-section:after{opacity:.38}#b4d-split-section .b4d-panel{border-radius:17px}#b4d-split-section .b4d-head{font-size:17px;padding:15px 13px}#b4d-split-section .b4d-faq-btn{min-height:56px;padding:14px 49px 14px 14px;font-size:13.5px}#b4d-split-section .b4d-faq-btn:after{right:10px;width:27px;height:27px;font-size:17px}#b4d-split-section .b4d-faq-answer{padding:0 14px;font-size:13.5px}#b4d-split-section .b4d-faq-btn.active+.b4d-faq-answer{padding:1px 14px 16px}#b4d-split-section .b4d-review-list{padding:13px}#b4d-split-section td{padding:13px 12px;font-size:13px}}@media(prefers-reduced-motion:reduce){#b4d-split-section:before,#b4d-split-section:after,#b4d-split-section .b4d-panel:before,#b4d-split-section .b4d-panel:after{animation:none}}
         </style>
         <section id="b4d-split-section">
@@ -1323,7 +1316,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 </div>
             </section>
                 <section class="b4d-panel">
-                <div class="b4d-head">Review Pengguna <span>PALU4D</span></div>
+                <div class="b4d-head">Review Pengguna <span>NOTA4D</span></div>
                 <div class="b4d-review-list">
                     <div class="b4d-review-card"><div class="b4d-avatar">AP</div><div><div class="b4d-review-name">Andi Pratama</div><div class="b4d-stars">★★★★★</div><div class="b4d-review-text">Menunya rapi dan akses dari HP terasa ringan.</div></div></div>
                     <div class="b4d-review-card"><div class="b4d-avatar">FA</div><div><div class="b4d-review-name">Fajar Aditya</div><div class="b4d-stars">★★★★☆</div><div class="b4d-review-text">Informasi utama mudah ditemukan tanpa banyak langkah.</div></div></div>
@@ -1431,11 +1424,9 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                     <a href="https://emergentresearch.org/" class="link vc-pill vc-pill--on-light link--default">
                                         <span class='link__content'>TOTO SLOT LOGIN
         </span>
-                                    </a>
-                                    <a href="https://emergentresearch.org/" class="link vc-pill vc-pill--on-light link--default">
+                                    </a><a href="https://emergentresearch.org/" class="link vc-pill vc-pill--on-light link--default">
                                         <span class='link__content'>NOTA4D SLOT
-        </span>
-                                    </a>
+        </span></a>
                                     <a href="https://emergentresearch.org/" class="link vc-pill vc-pill--on-light link--default">
                                         <span class='link__content'>NOTA4D ALTERNATIF
         </span>
@@ -1533,10 +1524,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             </div>
             <div class='jsSizeChartCanvasModal modal'>
                 <div class='modal-container'>
-                    <div class='close-modal close-reveal-modal tp-x-close-new jsCloseModal'></div>
+                    <divclass='close-modal close-reveal-modal tp-x-close-new jsCloseModal'></div>
                     <div class='row'>
                         <div class='col-md-12'>
-                            <div class='modal-content sizechart-canvas-modal__content jsSizeChartCanvasModalContent'>
+                            <divclass='modal-content sizechart-canvas-modal__content jsSizeChartCanvasModalContent'>
                                 <img>
                             </div>
                         </div>
@@ -1559,7 +1550,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 </div>
                                 <p class='m-footer__guarantee-link'>
                                     <a target="_blank" href="https://emergentresearch.org/" class="link link__cta link__cta--on-dark link--default">
-                                        <span class='link__content'>PALU4D
+                                        <span class='link__content'>NOTA4D
         </span>
                                     </a>
                                 </p>
@@ -1635,13 +1626,11 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                         </a>
                                         <a data-gtm-footer-link-text="TeePublic Reviews" style="--animation-order: " href="https://emergentresearch.org/" class="link gtmFooterLink link-collection__link link--1 link--default">
                                             <span class='link__content'>TeePublic Reviews
-        </span>
-                                        </a>
+        </span></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="link-collection m-foot__links-section">
-                                <div class="link-collection__body">
+                            <div class="link-collection m-foot__links-section"><div class="link-collection__body">
                                     <h4 class="h__h4 link-collection__header h--no-s">Explore</h4>
                                     <div class="link-collection__content">
                                         <a data-gtm-footer-link-text="All Designs" style="--animation-order: " href="https://emergentresearch.org/" class="link gtmFooterLink link-collection__link link--1 link--default">
@@ -1778,8 +1767,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                             </span>
                                         </a>
                                     </div>
-                                    <div class='m-footer__trusted-stores'>
-                                        <iframe height='70' loading='lazy' src='https://www.google.com/shopping/customerreviews/badge?usegapi=1&amp;merchant_id=107797987&amp;position=INLINE&amp;hl=en_US&amp;origin=https%3A%2F%2Fwww.teepublic.com&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.8uXxGUoumbY.O%2Fd%3D1%2Frs%3DAHpOoo96qx3mL4tzGUOa-0q0udyPRqEAoA%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I1_1709056039105&amp;_gfid=I1_1709056039105&amp;parent=https%3A%2F%2Fwww.teepublic.com&amp;pfname=&amp;rpctoken=37712624' style='border:none;' width='175'></iframe>
+                                    <div class='m-footer__trusted-stores'><iframe height='70' loading='lazy' src='https://www.google.com/shopping/customerreviews/badge?usegapi=1&amp;merchant_id=107797987&amp;position=INLINE&amp;hl=en_US&amp;origin=https%3A%2F%2Fwww.teepublic.com&amp;gsrc=3p&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.en.8uXxGUoumbY.O%2Fd%3D1%2Frs%3DAHpOoo96qx3mL4tzGUOa-0q0udyPRqEAoA%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh&amp;id=I1_1709056039105&amp;_gfid=I1_1709056039105&amp;parent=https%3A%2F%2Fwww.teepublic.com&amp;pfname=&amp;rpctoken=37712624' style='border:none;' width='175'></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -1935,10 +1923,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                     You're
         <span class='strong'>$70.00</span>
                                     Away from
-        <span class='strong'>FREE US Shipping!</span>
+        <spanclass='strong'>FREE US Shipping!</span>
                                 </div>
                                 <div class='free-shipping__progress-bar'>
-                                    <div class='free-shipping__progress-bar-value strong'>$0</div>
+                                    <div class='free-shipping__progress-bar-valuestrong'>$0</div>
                                     <div class="tpvc-progress-bar__container">
                                         <div class='tpvc-progress-bar__fill' style='width: 0.0%'></div>
                                     </div>
@@ -2002,8 +1990,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                     <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="funny" data-href="https://emergentresearch.org/" href="https://emergentresearch.org/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                                         <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                                             <svg xmlns="https://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
-                                                <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
-                                            </svg>
+                                                <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path></svg>
                                         </span>
                                         <span class='link__content'>funny
         
@@ -2073,8 +2060,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             </menu>
             <menu class="drawer m-tray m-tray-shop jsHeaderTray jsDrawerPrimary" data-controller="containers--drawer-component navigation--tray-trigger rudderstack--filter-clicked rudderstack--link-clicked" data-navigation--tray-trigger-containers--drawer-component-outlet=".jsSecondaryShopTray" data-rudderstack--filter-clicked-location-value="nav-shop-l1" data-rudderstack--link-clicked-location-value="nav-shop-l1" data-containers--drawer-component-target="content">
                 <div class="drawer__backdrop" data-action="click-&gt;navigation--tray-trigger#closeAllOutletTrays click-&gt;containers--drawer-component#close"></div>
-                <div class='drawer__wrapper drawer__wrapper--left'>
-                    <div class="drawer__component drawer--light m-tray-shop-secondary jsSecondaryShopTray m-tray-shop-designs" data-containers--drawer-component-target="content" data-containers--drawer-component-containers--drawer-component-outlet=".jsDrawerPrimary" data-controller="containers--drawer-component rudderstack--link-clicked rudderstack--filter-clicked" data-rudderstack--link-clicked-location-value="nav-shop-l2" data-rudderstack--filter-clicked-location-value="nav-shop-l2">
+                <div class='drawer__wrapper drawer__wrapper--left'><div class="drawer__component drawer--light m-tray-shop-secondary jsSecondaryShopTray m-tray-shop-designs" data-containers--drawer-component-target="content" data-containers--drawer-component-containers--drawer-component-outlet=".jsDrawerPrimary" data-controller="containers--drawer-component rudderstack--link-clicked rudderstack--filter-clicked" data-rudderstack--link-clicked-location-value="nav-shop-l2" data-rudderstack--filter-clicked-location-value="nav-shop-l2">
                         <button type="button" class="btn drawer__close-button tp-btn--medium btn--no-background tp-btn--icon" data-action="click-&gt;containers--drawer-component#closePrimaryDrawer">
                             <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                                 <img src="https://assets.teepublic.com/assets/teepublicons/x_close_orange400-c1926221e50e7f6686d23ac344405449054e43f23d0f3306f15d8dfd546f999a.svg" loading="lazy" alt="Close Drawer" height="12" width="12" aria_hidden="false" focusable="true">
@@ -2213,8 +2199,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 </div>
                                 <div class='m-tray-shop-secondary__content'>
                                     <h3>Kids Apparel</h3>
-                                    <div class='m-tray-shop-secondary__links'>
-                                        <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids T-Shirts" data-href="/kids-t-shirt" href="/kids-t-shirt">
+                                    <div class='m-tray-shop-secondary__links'><a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids T-Shirts" data-href="/kids-t-shirt" href="/kids-t-shirt">
                                             <h4 class="h--no-s">Kids T-Shirts</h4>
                                         </a>
                                         <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids Hoodie" data-href="/kids-hoodies" href="/kids-hoodies">
@@ -2412,8 +2397,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                     <div class='m-tray-shop__popular-products-grid'>
                                         <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="T-Shirts" data-href="/t-shirts" href="/t-shirts" class="link m-tray-shop__popular-product tshirt">
                                             <span class='link__content'>
-                                                <span>T-Shirts</span>
-                                            </span>
+                                                <span>T-Shirts</span></span>
                                         </a>
                                         <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Shorts" data-href="/shorts" href="/shorts" class="link m-tray-shop__popular-product shorts m-tray-shop__popular-product--new">
                                             <span class='link__content'>
@@ -2639,12 +2623,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                                 <option value="TW">Taiwan</option>
                                                 <option value="TH">Thailand</option>
                                                 <option value="TT">Trinidad and Tobago</option>
-                                                <option value="GB">United Kingdom</option>
-                                                <option selected="selected" value="US">United States</option>
+                                                <option value="GB">United Kingdom</option><option selected="selected" value="US">United States</option>
                                                 <option value="UY">Uruguay</option>
                                             </select>
-                                        </div>
-                                    </div>
+                                        </div></div>
                                     <div class='form__field'>
                                         <label class="label--heavy" for="currency">Currency:</label>
                                         <div class='select__wrap'>
@@ -2976,13 +2958,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                         "name": "S",
                                         "sort": 10
                                     },
-                                    "26": {
+                                    "26":{
                                         "unique_id": null,
                                         "id": 26,
                                         "name": "3XL",
                                         "sort": 35
-                                    },
-                                    "84": {
+                                    },"84": {
                                         "unique_id": null,
                                         "id": 84,
                                         "name": "5XL",
@@ -3139,14 +3120,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                         "id": 67,
                                         "name": "Military Green",
                                         "sort": 222
-                                    },
-                                    "21": {
+                                    },"21": {
                                         "unique_id": null,
                                         "id": 21,
                                         "name": "Orange",
                                         "sort": 160
-                                    },
-                                    "70": {
+                                    },"70": {
                                         "unique_id": null,
                                         "id": 70,
                                         "name": "Purple Heather",
@@ -3299,15 +3278,13 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                     "59": {
                                         "unique_id": null,
                                         "id": 59,
-                                        "name": "Indigo",
-                                        "sort": 520
+                                        "name": "Indigo","sort": 520
                                     },
                                     "111": {
                                         "unique_id": null,
                                         "id": 111,
                                         "name": "Faded Red",
-                                        "sort": 133
-                                    },
+                                        "sort": 133},
                                     "110": {
                                         "unique_id": null,
                                         "id": 110,
@@ -3447,8 +3424,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                     "sale_price_usd": "19.0",
                                     "sale_price_formatted": "$19.00"
                                 },
-                                "26-21": {
-                                    "retail_price": 26.0,
+                                "26-21": {"retail_price": 26.0,
                                     "retail_price_usd": "26.0",
                                     "retail_price_formatted": "$26.00",
                                     "sale_price": 21.0,
@@ -3593,8 +3569,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "1747": [0, [19, 79, 22, 70]],
                             "1748": [0, [19, 79, 23, 70]],
                             "1749": [0, [19, 79, 24, 70]],
-                            "1752": [0, [19, 79, 21, 71]],
-                            "1753": [0, [19, 79, 22, 71]],
+                            "1752": [0, [19, 79, 21, 71]],"1753": [0, [19, 79, 22, 71]],
                             "1754": [0, [19, 79, 23, 71]],
                             "1755": [0, [19, 79, 24, 71]],
                             "1808": [0, [19, 79, 21, 72]],
@@ -3726,15 +3701,13 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "2247": [2, [19, 79, 22, 45]],
                             "2267": [2, [19, 79, 21, 27]],
                             "2273": [2, [19, 79, 21, 24]],
-                            "2280": [2, [19, 79, 22, 69]],
-                            "2282": [2, [19, 79, 24, 69]],
+                            "2280": [2, [19, 79, 22, 69]],"2282": [2, [19, 79, 24, 69]],
                             "2288": [2, [19, 79, 24, 23]],
                             "2300": [2, [19, 79, 24, 21]],
                             "2351": [2, [19, 79, 21, 72]],
                             "2135": [3, [19, 79, 26, 3]],
                             "2213": [3, [19, 79, 84, 4]],
-                            "2216": [3, [19, 79, 83, 12]],
-                            "2218": [3, [19, 79, 83, 7]],
+                            "2216": [3, [19, 79, 83, 12]],"2218": [3, [19, 79, 83, 7]],
                             "3498": [3, [19, 79, 84, 45]],
                             "2227": [3, [19, 79, 26, 42]],
                             "2350": [3, [19, 79, 26, 71]],
@@ -3865,16 +3838,14 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "1328": [6, [19, 81, 22, 1]],
                             "1342": [6, [19, 81, 21, 11]],
                             "3021": [8, [19, 135, 24, 107]],
-                            "3031": [8, [19, 135, 21, 4]],
-                            "1829": [9, [19, 135, 25, 11]],
+                            "3031": [8, [19, 135, 21, 4]],"1829": [9, [19, 135, 25, 11]],
                             "3235": [11, [19, 370, 23, 1]],
                             "3238": [11, [19, 370, 22, 1]],
                             "3246": [11, [19, 370, 24, 12]],
                             "3237": [11, [19, 370, 24, 107]],
                             "3316": [1, [19, 371, 26, 5]],
                             "1100": [13, [20, 104, 21, 46]],
-                            "1116": [13, [20, 104, 21, 44]],
-                            "3417": [3, [19, 79, 83, 23]],
+                            "1116": [13, [20, 104, 21, 44]],"3417": [3, [19, 79, 83, 23]],
                             "2389": [0, [19, 79, 22, 10]],
                             "2395": [0, [19, 79, 24, 4]],
                             "2419": [0, [19, 79, 21, 3]],
@@ -4004,16 +3975,14 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "3281": [12, [19, 371, 23, 9]],
                             "3291": [12, [19, 371, 23, 8]],
                             "3293": [12, [19, 371, 21, 9]],
-                            "3312": [12, [19, 371, 23, 5]],
-                            "3314": [12, [19, 371, 24, 5]],
+                            "3312": [12, [19, 371, 23, 5]],"3314": [12, [19, 371, 24, 5]],
                             "3302": [12, [19, 371, 21, 1]],
                             "1111": [13, [20, 104, 24, 57]],
                             "1118": [13, [20, 104, 23, 44]],
                             "1124": [13, [20, 104, 21, 40]],
                             "1128": [13, [20, 104, 21, 42]],
                             "2394": [0, [19, 79, 23, 4]],
-                            "2399": [0, [19, 79, 22, 5]],
-                            "2416": [0, [19, 79, 22, 11]],
+                            "2399": [0, [19, 79, 22, 5]],"2416": [0, [19, 79, 22, 11]],
                             "3230": [0, [19, 79, 22, 108]],
                             "2522": [0, [19, 79, 23, 44]],
                             "2533": [0, [19, 79, 22, 45]],
@@ -4144,7 +4113,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "3473": [1, [19, 79, 84, 27]],
                             "2142": [3, [19, 79, 26, 45]],
                             "2212": [3, [19, 79, 83, 4]],
-                            "2214": [3, [19, 79, 83, 8]],
+                            "2214": [3, [19, 79, 83,8]],
                             "2239": [3, [19, 79, 26, 44]],
                             "409": [0, [20, 79, 23, 4]],
                             "433": [0, [20, 79, 22, 5]],
@@ -4152,8 +4121,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "1721": [0, [20, 79, 22, 23]],
                             "3135": [0, [20, 79, 23, 19]],
                             "3172": [0, [20, 79, 24, 45]],
-                            "3154": [0, [20, 79, 24, 43]],
-                            "2437": [0, [20, 79, 23, 12]],
+                            "3154": [0, [20, 79, 24, 43]],"2437": [0, [20, 79, 23, 12]],
                             "2474": [0, [20, 79, 24, 3]],
                             "2486": [0, [20, 79, 21, 8]],
                             "2601": [0, [20, 79, 21, 62]],
@@ -4283,8 +4251,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "2808": [4, [20, 213, 21, 11]],
                             "2809": [4, [20, 213, 22, 11]],
                             "2815": [4, [20, 213, 22, 12]],
-                            "2816": [4, [20, 213, 23, 12]],
-                            "1830": [8, [19, 135, 21, 12]],
+                            "2816": [4, [20, 213, 23, 12]],"1830": [8, [19, 135, 21, 12]],
                             "1833": [8, [19, 135, 24, 12]],
                             "2409": [0, [19, 79, 23, 7]],
                             "2417": [0, [19, 79, 23, 11]],
@@ -4292,7 +4259,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "3218": [0, [19, 79, 22, 108]],
                             "3220": [0, [19, 79, 24, 108]],
                             "2509": [0, [19, 79, 22, 42]],
-                            "2580": [0, [19, 79, 24, 67]],
+                            "2580": [0, [19, 79,24, 67]],
                             "2584": [0, [19, 79, 22, 21]],
                             "2633": [0, [19, 79, 23, 71]],
                             "540": [1, [19, 79, 83, 8]],
@@ -4422,8 +4389,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "3145": [0, [20, 79, 21, 43]],
                             "3163": [0, [20, 79, 21, 45]],
                             "2602": [0, [20, 79, 22, 62]],
-                            "977": [4, [20, 79, 26, 9]],
-                            "979": [4, [20, 79, 26, 11]],
+                            "977": [4, [20, 79, 26, 9]],"979": [4, [20, 79, 26, 11]],
                             "2539": [4, [20, 79, 26, 12]],
                             "3175": [2, [20, 79, 21, 45]],
                             "2149": [2, [20, 79, 21, 12]],
@@ -4431,8 +4397,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "2155": [2, [20, 79, 22, 1]],
                             "2157": [2, [20, 79, 24, 1]],
                             "2169": [2, [20, 79, 21, 4]],
-                            "2193": [2, [20, 79, 24, 5]],
-                            "2195": [2, [20, 79, 21, 6]],
+                            "2193": [2, [20, 79, 24, 5]],"2195": [2, [20, 79, 21, 6]],
                             "2249": [3, [20, 79, 26, 4]],
                             "3419": [1, [19, 79, 84, 23]],
                             "823": [5, [19, 80, 21, 47]],
@@ -4561,8 +4526,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "2341": [2, [19, 79, 23, 70]],
                             "2352": [2, [19, 79, 22, 72]],
                             "2357": [2, [19, 79, 21, 22]],
-                            "2360": [2, [19, 79, 24, 22]],
-                            "3227": [2, [19, 79, 21, 108]],
+                            "2360": [2, [19, 79, 24, 22]],"3227": [2, [19, 79, 21, 108]],
                             "3427": [1, [19, 79, 83, 22]],
                             "2081": [3, [19, 79, 26, 1]],
                             "2085": [3, [19, 79, 26, 4]],
@@ -4571,8 +4535,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "3433": [1, [19, 79, 83, 3]],
                             "2259": [3, [19, 79, 26, 11]],
                             "2261": [3, [19, 79, 26, 2]],
-                            "2272": [3, [19, 79, 26, 27]],
-                            "3443": [1, [19, 79, 84, 2]],
+                            "2272": [3, [19, 79, 26, 27]],"3443": [1, [19, 79, 84, 2]],
                             "399": [0, [20, 79, 23, 11]],
                             "417": [0, [20, 79, 21, 9]],
                             "422": [0, [20, 79, 21, 2]],
@@ -4701,8 +4664,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "1356": [14, [19, 81, 25, 8]],
                             "1361": [14, [19, 81, 25, 12]],
                             "3097": [6, [20, 81, 22, 4]],
-                            "851": [6, [20, 81, 21, 1]],
-                            "874": [6, [20, 81, 24, 7]],
+                            "851": [6, [20, 81, 21, 1]],"874": [6, [20, 81, 24, 7]],
                             "2839": [4, [19, 218, 24, 12]],
                             "2844": [4, [19, 218, 21, 1]],
                             "2885": [4, [19, 218, 22, 4]],
@@ -4711,8 +4673,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "2849": [7, [19, 218, 26, 1]],
                             "2857": [7, [19, 218, 26, 8]],
                             "2791": [4, [20, 213, 22, 1]],
-                            "2960": [6, [19, 328, 23, 1]],
-                            "2967": [6, [19, 328, 24, 4]],
+                            "2960": [6, [19, 328, 23, 1]],"2967": [6, [19, 328, 24, 4]],
                             "2972": [6, [19, 328, 23, 19]],
                             "2976": [6, [19, 328, 21, 74]],
                             "2966": [6, [19, 328, 23, 4]],
@@ -4839,7 +4800,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "3455": [1, [19, 79, 84, 5]],
                             "3456": [3, [19, 79, 84, 5]],
                             "3458": [1, [19, 79, 83, 69]],
-                            "3470": [1, [19, 79, 83, 27]],
+                            "3470": [1, [19,79, 83, 27]],
                             "3474": [3, [19, 79, 84, 27]],
                             "3476": [1, [19, 79, 83, 19]],
                             "3480": [3, [19, 79, 84, 19]],
@@ -4976,8 +4937,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "2355": [18, [19, 79, 25, 72]],
                             "2283": [18, [19, 79, 25, 69]],
                             "3222": [18, [19, 79, 25, 108]],
-                            "2361": [18, [19, 79, 25, 22]],
-                            "2238": [18, [19, 79, 25, 44]],
+                            "2361": [18, [19, 79, 25, 22]],"2238": [18, [19, 79, 25, 44]],
                             "2289": [18, [19, 79, 25, 23]],
                             "2295": [18, [19, 79, 25, 67]],
                             "2301": [18, [19, 79, 25, 21]],
@@ -4987,8 +4947,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "2271": [18, [19, 79, 25, 27]],
                             "2090": [18, [19, 79, 25, 7]],
                             "2232": [18, [19, 79, 25, 43]],
-                            "2110": [18, [19, 79, 25, 4]],
-                            "2080": [18, [19, 79, 25, 1]],
+                            "2110": [18, [19, 79, 25, 4]],"2080": [18, [19, 79, 25, 1]],
                             "2086": [18, [19, 79, 25, 5]],
                             "2226": [18, [19, 79, 25, 42]],
                             "2277": [18, [19, 79, 25, 24]],
@@ -5124,13 +5083,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             "3546": [7, [20, 393, 26, 111]],
                             "3612": [17, [19, 395, 25, 1]],
                             "2825": [7, [20, 213, 26, 27]],
-                            "3620": [17, [19, 395, 25, 114]],
-                            "3626": [5, [19, 395, 26, 113]],
+                            "3620": [17, [19, 395, 25, 114]],"3626": [5, [19, 395, 26, 113]],
                             "2831": [7, [20, 213, 26, 9]],
                             "3621": [5, [19, 395, 26, 1]],
                             "3629": [5, [19, 395, 26, 114]]
                         },
-                        "descriptions": [["50% Cotton / 50% Polyester. Heathered colors offer additional stretch and options -- the softest shirts in the business and the perfect weight for a graphic tee.", [1339, 1338, 1340, 1337, 1341]], ["Cotton/Poly blend. The softest in the business and the perfect weight for a graphic tee", [2393, 8, 2085, 2172, 337, 2535, 338, 2212, 2213, 2371, 2459, 407, 409, 410, 2458, 2498, 539, 1325, 980, 2111, 2107, 2395, 2396, 2455, 2169, 408, 2456, 2170, 2457, 2171, 2249, 2392, 2394, 333, 334, 1324, 1322, 335, 336, 1323, 538, 1326, 2397, 2109, 2106, 2110, 2108, 2499, 411, 2173]], ["100% combed ringspun cotton. The perfect fabric for a graphic tee in a relaxed cut and still the softest in the business.", [2806, 2799, 2796, 2801, 2824, 2795, 2830, 2829, 2810, 2809, 2794, 2800, 2815, 2797, 2825, 2813, 2819, 2804, 2812, 2817, 2811, 2791, 2792, 2793, 2807, 2802, 2803, 2826, 2827, 2831, 2820, 2821, 2822, 2823, 2798, 2814, 2808, 2790, 2805, 2816, 2818, 2828]], ["65% Polyester, 35% Viscose. Lightweight with the perfect cut and a flattering v-neck. Fabric drapes loosely across body for a comfortable, relaxed fit.", [1785, 1786, 1787, 1788, 1790, 1791, 1793, 1798, 1799, 1802, 1805, 1806, 1796, 1783, 1792, 1804, 1797, 1800, 1801, 1807, 1784, 1789, 1794, 1803, 1795]], ["50% Polyester, 25% Cotton, 25% Rayon blend. A light, bouncy shirt with a flowy, relaxed fit and dolman sleeves.", [1130, 1121, 1108, 1111, 1100, 1101, 1102, 1129, 1116, 1127, 1107, 1120, 1119, 1105, 1109, 1110, 1112, 1115, 1132, 1124, 1136, 1137, 1104, 1138, 1139, 1106, 1103, 1128, 1131, 1122, 1123, 1113, 1114, 1133, 1134, 1135, 1125, 1126, 1117, 1118]], ["Combed ringspun cotton/poly blend. A perfectly comfortable combination of classic cut and vintage style.", [2776, 2786, 2787, 2781, 2782, 2783, 2780, 2785, 2770, 2772, 2775, 2777, 2771, 2773, 2778, 2788]], ["100% Airlume pre-shrunk combed and ringspun cotton", [3247, 3241, 3236, 3246, 3250, 3243, 3248, 3249, 3251, 3239, 3234, 3244, 3232, 3233, 3235, 3237, 3238, 3240, 3242, 3245]], ["100% combed ringspun cotton. The perfect fabric for a graphic tee and the softest in the business. (Due to product availability, cotton type may vary for 2XL and 3XL sizes)", [3408, 3403, 3404, 2478, 3452, 3498, 3417, 3252, 3405, 3460, 3465, 3454, 2637, 3406, 2205, 3411, 3407, 3421, 3416, 881, 3412, 3414, 3261, 3413, 3479, 3127, 3438, 3445, 3418, 3410, 3469, 3436, 3439, 2415, 3450, 3419, 3437, 3424, 3495, 3420, 3427, 3422, 2558, 2582, 3423, 3448, 3441, 3444, 3426, 364, 2368, 3253, 3428, 3429, 3, 3462, 3464, 7, 3259, 3430, 3432, 3263, 3264, 3265, 2122, 3256, 3266, 2500, 2501, 3254, 3260, 1, 357, 3440, 3434, 3258, 3262, 3255, 2264, 3210, 3453, 2191, 3457, 3435, 2206, 329, 4, 3257, 3451, 1680, 540, 1709, 2310, 3463, 3497, 2272, 3442, 3446, 374, 377, 875, 20, 3449, 2193, 2165, 2305, 2121, 3141, 3458, 2592, 2306, 3171, 3456, 2125, 3455, 2133, 3466, 3467, 358, 376, 3461, 3468, 3475, 3476, 2442, 2451, 3493, 3480, 2360, 3491, 1334, 3425, 22, 341, 3209, 378, 3490, 3481, 441, 2593, 389, 391, 3487, 433, 436, 421, 383, 3203, 3431, 3488, 3494, 1967, 10, 315, 316, 366, 1361, 1344, 3489, 344, 3496, 382, 348, 2151, 2154, 1704, 3134, 369, 3471, 3133, 3096, 1808, 2192, 352, 1348, 3443, 3478, 2331, 2175, 3215, 2569, 3409, 3160, 3169, 1710, 2489, 21, 2471, 3415, 3459, 3177, 3091, 854, 1700, 3447, 2388, 878, 2440, 3433, 2581, 1711, 1723, 3319, 3482, 2256, 400, 887, 892, 855, 2647, 1811, 327, 328, 2083, 3486, 3193, 360, 1819, 3470, 2549, 2187, 3183, 3214, 3472, 2598, 2315, 2176, 415, 861, 3098, 870, 3473, 3484, 3485, 396, 2319, 406, 2482, 443, 2487, 2333, 425, 405, 3474, 3477, 2419, 2421, 2159, 3492, 2586, 2248, 2201, 2438, 2445, 15, 2252, 3483, 1329, 2311, 2203, 2194, 981, 2330, 1718, 402, 2615, 2464, 535, 3217, 883, 2443, 2507, 3220, 323, 395, 2640, 340, 1335, 2186, 2158, 2600, 2117, 2309, 3227, 2155, 446, 2490, 543, 2576, 2538, 2334, 858, 2146, 372, 373, 2138, 848, 2163, 2184, 1726, 2078, 866, 2450, 2589, 2157, 370, 347, 2088, 445, 365, 2387, 2105, 1720, 2607, 2323, 2324, 2611, 2551, 2623, 423, 1722, 427, 2475, 435, 3185, 3197, 1688, 1679, 2119, 2204, 3224, 2325, 2266, 3181, 2127, 384, 2400, 11, 2250, 324, 3317, 3139, 3128, 3150, 1695, 2150, 2337, 2190, 1717, 3204, 2136, 2553, 2327, 2536, 2328, 2329, 1729, 1714, 1716, 2179, 1727, 2614, 3206, 2483, 354, 2316, 2537, 3189, 542, 417, 2617, 2468, 2644, 2539, 2477, 2317, 2178, 2506, 404, 371, 2452, 444, 420, 403, 2164, 3205, 3213, 2166, 2167, 3143, 3156, 2253, 2453, 322, 2454, 2168, 437, 2437, 2263, 439, 2197, 2199, 3225, 2363, 2312, 381, 428, 3151, 3152, 3163, 3178, 339, 426, 412, 3173, 3093, 342, 3132, 2338, 3154, 3155, 3161, 3162, 3175, 3174, 9, 3180, 429, 431, 2354, 2375, 896, 898, 3137, 2441, 1671, 2444, 2448, 3182, 2591, 3130, 3153, 2152, 2447, 1678, 1681, 1697, 1699, 1691, 1701, 346, 2505, 2472, 1815, 2470, 2484, 1818, 1724, 2473, 3195, 3186, 2547, 2476, 2616, 3148, 531, 1735, 2474, 432, 857, 353, 533, 2479, 3140, 2579, 859, 1814, 2572, 14, 534, 2599, 536, 537, 2596, 2605, 2604, 865, 867, 2603, 3179, 2610, 2620, 2609, 3149, 351, 3212, 3216, 846, 3187, 1737, 13, 3226, 3136, 1359, 1328, 359, 1352, 1349, 1351, 16, 3230, 3198, 982, 397, 393, 2307, 1707, 2379, 541, 2087, 2207, 12, 17, 3231, 1673, 3190, 3188, 3168, 2298, 2300, 375, 3223, 2079, 2095, 2077, 3176, 3147, 2597, 1712, 2313, 2134, 1713, 2486, 2200, 2097, 2143, 2101, 1694, 1683, 1674, 3138, 1676, 847, 960, 2102, 2104, 1733, 1734, 2335, 2622, 2336, 2126, 2355, 1732, 2267, 2185, 3170, 330, 5, 2156, 2217, 2275, 2188, 860, 2608, 2270, 2265, 2552, 2189, 3228, 6, 2209, 2282, 434, 442, 3158, 864, 3144, 2278, 2449, 2221, 3191, 3192, 2283, 3229, 3159, 2601, 2602, 1336, 3194, 856, 2318, 3089, 2460, 2174, 3157, 2461, 2462, 2463, 862, 2177, 416, 3211, 3184, 2251, 1333, 3196, 3146, 863, 2465, 18, 418, 532, 2180, 2181, 2182, 885, 3222, 2466, 2467, 2469, 2183, 977, 2220, 318, 3164, 3199, 3200, 2380, 2403, 3202, 1346, 1347, 3207, 3221, 317, 3208, 3219, 3165, 2351, 984, 2352, 2408, 2424, 2481, 438, 983, 2195, 2196, 2365, 3201, 440, 2198, 2485, 3218, 3166, 2590, 2304, 1705, 2412, 2357, 2376, 3092, 388, 394, 2361, 2353, 2429, 2594, 2575, 2308, 345, 2381, 3318, 2382, 2386, 2414, 399, 2322, 2369, 2404, 2613, 1666, 3135, 19, 3129, 3142, 3131, 2, 321, 363, 2606, 3145, 1693, 2502, 2559, 401, 3172, 3167, 2587, 2577, 2578, 2410, 2436, 398, 2432, 2406, 2416, 430, 392, 2641, 2585, 2420, 2545, 422, 424, 2417, 978, 386, 976, 979, 2497, 2570, 2595, 2493, 2480, 1343, 1331, 413, 2540, 414, 3090, 2544, 2580, 2557, 852, 853, 2534, 888, 889, 890, 876, 2639, 877, 874, 880, 871, 872, 873, 897, 893, 899, 419, 1342, 390, 2624, 3097, 894, 895, 3094, 1354, 1357, 1358, 1330, 1353, 1356, 2550, 2588, 850, 868, 3095, 1345, 1332, 1360, 1355, 1350, 1685, 2541, 2560, 2565, 2567, 886, 869, 1327, 1698, 1692, 900, 851, 882, 1687, 1677, 1708, 1668, 2584, 2573, 1719, 849, 879, 1684, 1686, 1682, 884, 1670, 891, 1731, 1730, 2619, 387, 1696, 2621, 2148, 2261, 2286, 1703, 1706, 2288, 2135, 2268, 2144, 2112, 2093, 2116, 2115, 2123, 2128, 2290, 2124, 2153, 2208, 2145, 2297, 2299, 2289, 2292, 2295, 2215, 2301, 2302, 2279, 2274, 2434, 2285, 2291, 2218, 2287, 2366, 2294, 2284, 2262, 2273, 1715, 1689, 1675, 1667, 2356, 2269, 1669, 2439, 2254, 2255, 1672, 1690, 2384, 2259, 2258, 1736, 1721, 1816, 1817, 1809, 1810, 1812, 1725, 2358, 2359, 2418, 1728, 2378, 2561, 1813, 2583, 2409, 2390, 2564, 2612, 2433, 2422, 2391, 2405, 2646, 2638, 2546, 2402, 2398, 2413, 2430, 2431, 2399, 2401, 2407, 2435, 2504, 2446, 2423, 2492, 2494, 2503, 2495, 2542, 2618, 2554, 2555, 2556, 2271, 2321, 2320, 2326, 2571, 2092, 2090, 2543, 2103, 2566, 2132, 2202, 2131, 2089, 2098, 2214, 2161, 2113, 2137, 2149, 2389, 2216, 2096, 2099, 2276, 2081, 2100, 2094, 2118, 2084, 2080, 2086, 2160, 2091, 2211, 2210, 2130, 2120, 2147, 2162, 2488, 2281, 2548, 2562, 2373, 2364, 2367, 2332, 2362, 2293, 2372, 2257, 2280, 2383, 2377, 2491, 2374, 2277, 2496, 2260, 2370, 2385, 2648, 2314, 2411, 2643, 2645, 2642, 2563, 2568, 2574, 2219, 1702, 2296, 2303, 2114, 2082, 2129]], ["100% combed cotton. A feminine cut featuring a v-neck in extended sizes that are all designed to wear, wash and age well.", [2667, 2660, 2662, 2663, 2664, 2673, 2655, 2656, 2657, 2674, 2659, 2661, 2668, 2669, 2671, 2672, 2658, 2665, 2666, 2670]], ["Moisture management/antimicrobial performance fabric, 100% Polyester", [3291, 3271, 3296, 3280, 3295, 3278, 3287, 3315, 3294, 3293, 3313, 3268, 3273, 3272, 3269, 3292, 3279, 3285, 3281, 3267, 3283, 3286, 3289, 3290, 3297, 3270, 3301, 3312, 3298, 3314, 3274, 3277, 3288, 3311, 3299, 3276, 3275, 3284, 3302, 3282, 3300, 3316]], ["100% combed ringspun cotton (Heather is a cotton/poly blend) with a heavier weight than the Classic T-Shirt for a timeless fit. The perfect fabric for a graphic tee in a standard cut up to 5XL - and still the softest in the business.", [2878, 2870, 2845, 2869, 2858, 2879, 2856, 2863, 2872, 2860, 2865, 2874, 2868, 2885, 2887, 2883, 2877, 2847, 2866, 2881, 2864, 2875, 2876, 2855, 2859, 2850, 2880, 2890, 2886, 2891, 2889, 2857, 2841, 2849, 2853, 2873, 2871, 2836, 2867, 2851, 2852, 2854, 2861, 2862, 2842, 2882, 2884, 2840, 2843, 2846, 2844, 2839, 2888, 2837, 2838, 2848]], ["100% Cotton. Lightweight with the perfect cut. Fabric drapes loosely across body for a comfortable, relaxed fit. Due to availability, some colors may be a poly-viscose blend.", [1761, 1762, 1778, 1779, 1772, 1773, 1782, 1758, 1763, 1764, 1766, 1759, 1760, 1774, 1768, 1770, 1771, 1775, 1776, 1777, 1781, 1780, 1765, 1767, 1769]], ["Polyester/cotton/rayon blend. A lighter, super soft tee with stretch.", [1820, 1008, 1049, 1019, 836, 1010, 1027, 1018, 837, 844, 806, 823, 1046, 1001, 830, 831, 993, 998, 1015, 1037, 988, 808, 1003, 994, 809, 1011, 989, 990, 1006, 1005, 995, 997, 858, 1007, 1009, 1016, 1017, 1020, 815, 1038, 817, 1031, 1024, 1025, 1028, 1034, 812, 810, 811, 816, 820, 821, 828, 814, 818, 813, 841, 839, 843, 842, 1021, 1022, 834, 835, 838, 840, 845, 1026, 833, 1048, 1030, 1032, 1033, 1040, 1041, 1042, 1035, 1029, 1023, 1036, 1039, 1045, 1047, 807, 1002, 1004, 1012, 1013, 1014, 822, 1000, 829, 832, 824, 825, 827, 826, 1043, 1044, 819, 992, 996, 985, 986, 987, 991]], ["100% combed cotton. The perfect fabric for a graphic tee and the softest in the business.", [3358, 3344, 3351, 3364, 3355, 3338, 3367, 3352, 3365, 3342, 3345, 3349, 3369, 3348, 3361, 3343, 3363, 3368, 3370, 3346, 3347, 3353, 3371, 3340, 3341, 3362, 3337, 3359, 3350, 3356, 3339, 3336, 3354, 3366, 3360, 3357]], ["100% combed ringspun cotton. A perfectly comfortable combination of classic cut and vintage style.", [2784, 2779, 2789, 2774]], ["100% combed cotton.  A feminine cut in extended sizes that are all designed to wear, wash and age well.", [1924, 1925, 1937, 1932, 1933, 1928, 1931, 1935, 1934, 1939, 1941, 1926, 1927, 1929, 1930, 1936, 1922, 1923, 1938, 1940]], ["60% Cotton / 40% Polyester. A heathered, feminine cut in extended sizes that are all designed to wear, wash and age well.\r\n", [1943, 1945, 1942, 1944, 2676, 2677, 2678, 2675]], ["Cotton/Poly blend.  Heathered versions of our classic tee colors -- the softest shirts in the business and the perfect weight for a graphic tee.", [916, 2340, 2239, 2228, 2141, 2349, 2519, 2527, 2227, 2508, 2347, 2230, 923, 902, 925, 2427, 2627, 2525, 2139, 913, 2426, 2142, 2229, 2234, 2428, 2509, 2344, 2345, 1750, 2517, 2532, 901, 1751, 2632, 2633, 912, 2343, 2231, 2510, 2629, 2514, 2516, 2233, 2235, 926, 929, 930, 2242, 903, 905, 921, 2243, 2342, 2246, 904, 906, 917, 918, 911, 908, 909, 2526, 2350, 2520, 2528, 2530, 2531, 2631, 2513, 2521, 2523, 2515, 2512, 2628, 2518, 919, 920, 922, 924, 914, 915, 907, 910, 927, 928, 2533, 2625, 1746, 2626, 2240, 2238, 2630, 2222, 2237, 2241, 2244, 2524, 1753, 1748, 1752, 2339, 1747, 1749, 1756, 1757, 1754, 1755, 2511, 2529, 2247, 2232, 2140, 2223, 2224, 2245, 2236, 2522, 2225, 2226, 2348, 2425, 2346, 2341, 2634, 2636, 2635]], ["60% Organic Cotton, 40% Recycled Poly RPET - approximately 4 recycled RPET bottles are used per shirt. A heavier weight than the Classic T-Shirt, for enhanced comfort and durability. Your favorite t-shirt, made better. ", [2954, 2959, 2986, 2981, 2988, 2976, 2956, 2977, 2975, 2978, 2958, 2991, 2992, 2960, 2982, 2989, 2993, 2967, 2971, 2973, 2974, 2980, 2952, 2969, 2984, 2987, 2970, 2972, 2955, 2962, 2957, 2985, 2968, 2953, 2983, 2965, 2979, 2961, 2963, 2990, 2964, 2966]], ["100% Combed Ring-Spun Cotton. A heavyweight, breathable fabric with a smooth, comfortable feel. Designed with a relaxed, boxy fit and mid-length hem for a modern, easygoing silhouette.", [3535, 3500, 3526, 3542, 3529, 3510, 3518, 3507, 3537, 3539, 3538, 3504, 3540, 3520, 3511, 3544, 3519, 3506, 3546, 3534, 3521, 3523, 3508, 3516, 3499, 3528, 3545, 3531, 3524, 3536, 3502, 3527, 3503, 3532, 3543, 3522, 3515, 3514, 3530, 3513, 3505, 3512]], ["90% Combed Ring-Spun Cotton, 10% Polyester. A heavyweight, breathable fabric with a smooth, comfortable feel. Designed with a relaxed, boxy fit and mid-length hem for a modern, easygoing silhouette.", [3541, 3517, 3533, 3509, 3525, 3501]], ["100% Combed Ring Spun Cotton. This heavyweight, breathable fabric offers a smooth, comfortable feel. Designed with a relaxed fit, and drop shoulder for an easy, laid-back look. ", [2074, 1848, 2068, 1838, 1837, 1836, 1825, 1849, 2072, 3024, 3027, 3035, 1831, 1842, 3032, 1830, 1827, 1845, 1841, 1846, 1832, 1833, 1835, 2075, 3029, 3031, 3018, 3019, 2069, 3028, 3033, 3022, 3030, 1840, 1844, 1847, 1828, 1839, 1834, 1843, 1829, 1826, 3023, 3040, 2076, 2070, 2071, 2073, 3041, 3036, 3025, 3026, 3021, 3037, 3038, 3020, 3034, 3039, 3042]], ["This tee is made from 100% heavyweight cotton and garment-dyed for a soft, broken-in feel. It features a relaxed fit, crew neckline, and a slightly cropped length. Each piece is one of a kind thanks to the dye process. Durable and easy to wear.", [3567, 3578, 3568, 3616, 3573, 3569, 3595, 3571, 3589, 3626, 3576, 3572, 3581, 3574, 3575, 3592, 3583, 3591, 3577, 3579, 3587, 3582, 3622, 3602, 3614, 3580, 3625, 3590, 3588, 3585, 3601, 3598, 3586, 3603, 3594, 3599, 3596, 3611, 3608, 3606, 3604, 3605, 3617, 3609, 3624, 3607, 3621, 3613, 3619, 3623, 3628, 3627, 3629, 3612, 3618, 3593, 3620, 3610, 3615, 3570, 3597, 3600, 3584]]],
+                        "descriptions": [["50% Cotton / 50% Polyester. Heathered colors offer additional stretch and options -- the softest shirts in the business and the perfect weight for a graphic tee.", [1339, 1338, 1340, 1337, 1341]], ["Cotton/Poly blend. The softest in the business and the perfect weight for a graphic tee", [2393, 8, 2085, 2172, 337, 2535, 338, 2212, 2213, 2371, 2459, 407, 409, 410, 2458, 2498, 539, 1325, 980, 2111, 2107, 2395, 2396, 2455, 2169, 408, 2456, 2170, 2457, 2171, 2249, 2392, 2394, 333, 334, 1324, 1322, 335, 336, 1323, 538, 1326, 2397, 2109, 2106, 2110, 2108, 2499, 411, 2173]], ["100% combed ringspun cotton. The perfect fabric for a graphic tee in a relaxed cut and still the softest in the business.", [2806, 2799, 2796, 2801, 2824, 2795, 2830, 2829, 2810, 2809, 2794, 2800, 2815, 2797, 2825, 2813, 2819, 2804, 2812, 2817, 2811, 2791, 2792, 2793, 2807, 2802, 2803, 2826, 2827, 2831, 2820, 2821, 2822, 2823, 2798, 2814, 2808, 2790, 2805, 2816, 2818, 2828]], ["65% Polyester, 35% Viscose. Lightweight with the perfect cut and a flattering v-neck. Fabric drapes loosely across body for a comfortable, relaxed fit.", [1785, 1786, 1787, 1788, 1790, 1791, 1793, 1798, 1799, 1802, 1805, 1806, 1796, 1783, 1792, 1804, 1797, 1800, 1801, 1807, 1784, 1789, 1794, 1803, 1795]], ["50% Polyester, 25% Cotton, 25% Rayon blend. A light, bouncy shirt with a flowy, relaxed fit and dolman sleeves.", [1130, 1121, 1108, 1111, 1100, 1101, 1102, 1129, 1116, 1127, 1107, 1120, 1119, 1105, 1109, 1110, 1112, 1115, 1132, 1124, 1136, 1137, 1104, 1138, 1139, 1106, 1103, 1128, 1131, 1122, 1123, 1113, 1114, 1133, 1134, 1135, 1125, 1126, 1117, 1118]], ["Combed ringspun cotton/poly blend. A perfectly comfortable combination of classic cut and vintage style.", [2776, 2786, 2787, 2781, 2782, 2783, 2780, 2785, 2770, 2772, 2775, 2777, 2771, 2773, 2778, 2788]], ["100% Airlume pre-shrunk combed and ringspun cotton", [3247, 3241, 3236, 3246, 3250, 3243, 3248, 3249, 3251, 3239, 3234, 3244, 3232, 3233, 3235, 3237, 3238, 3240, 3242, 3245]], ["100% combed ringspun cotton. The perfect fabric for a graphic tee and the softest in the business. (Due to product availability, cotton type may vary for 2XL and 3XL sizes)", [3408, 3403, 3404, 2478, 3452, 3498, 3417, 3252, 3405, 3460, 3465, 3454, 2637, 3406, 2205, 3411, 3407, 3421, 3416, 881, 3412, 3414, 3261, 3413, 3479, 3127, 3438, 3445, 3418, 3410, 3469, 3436, 3439, 2415, 3450, 3419, 3437, 3424, 3495, 3420, 3427, 3422, 2558, 2582, 3423, 3448, 3441, 3444, 3426, 364, 2368, 3253, 3428, 3429, 3, 3462, 3464, 7, 3259, 3430, 3432, 3263, 3264, 3265, 2122, 3256, 3266, 2500, 2501, 3254, 3260, 1, 357, 3440, 3434, 3258, 3262, 3255, 2264, 3210, 3453, 2191, 3457, 3435, 2206, 329, 4, 3257, 3451, 1680, 540, 1709, 2310, 3463, 3497, 2272, 3442, 3446, 374, 377, 875, 20, 3449, 2193, 2165, 2305, 2121, 3141, 3458, 2592, 2306, 3171, 3456, 2125, 3455, 2133, 3466, 3467, 358, 376, 3461, 3468, 3475, 3476, 2442, 2451, 3493, 3480, 2360, 3491, 1334, 3425, 22, 341, 3209, 378, 3490, 3481, 441, 2593, 389, 391, 3487, 433, 436, 421, 383, 3203, 3431, 3488, 3494, 1967, 10, 315, 316, 366, 1361, 1344, 3489, 344, 3496, 382, 348, 2151, 2154, 1704, 3134, 369, 3471, 3133, 3096, 1808, 2192, 352, 1348, 3443, 3478, 2331, 2175, 3215, 2569, 3409, 3160, 3169, 1710, 2489, 21, 2471, 3415, 3459, 3177, 3091, 854, 1700, 3447, 2388, 878, 2440, 3433, 2581, 1711, 1723, 3319, 3482, 2256, 400, 887, 892, 855, 2647, 1811, 327, 328, 2083, 3486, 3193, 360, 1819, 3470, 2549, 2187, 3183, 3214, 3472, 2598, 2315, 2176, 415, 861, 3098, 870, 3473, 3484, 3485, 396, 2319, 406, 2482, 443, 2487, 2333, 425, 405, 3474, 3477, 2419, 2421, 2159, 3492, 2586, 2248, 2201, 2438, 2445, 15, 2252, 3483, 1329, 2311, 2203, 2194, 981, 2330, 1718, 402, 2615, 2464, 535, 3217, 883, 2443, 2507, 3220, 323, 395, 2640, 340, 1335, 2186, 2158, 2600, 2117, 2309, 3227, 2155, 446, 2490, 543, 2576, 2538, 2334, 858, 2146, 372, 373, 2138, 848, 2163, 2184, 1726, 2078, 866, 2450, 2589, 2157, 370, 347, 2088, 445, 365, 2387, 2105, 1720, 2607, 2323, 2324, 2611, 2551, 2623, 423, 1722, 427, 2475, 435, 3185, 3197, 1688, 1679, 2119, 2204, 3224, 2325, 2266, 3181, 2127, 384, 2400, 11, 2250, 324, 3317, 3139, 3128, 3150, 1695, 2150, 2337, 2190, 1717, 3204, 2136, 2553, 2327, 2536, 2328, 2329, 1729, 1714, 1716, 2179, 1727, 2614, 3206, 2483, 354, 2316, 2537, 3189, 542, 417, 2617, 2468, 2644, 2539, 2477, 2317, 2178, 2506, 404, 371, 2452, 444, 420, 403, 2164, 3205, 3213, 2166, 2167, 3143, 3156, 2253, 2453, 322, 2454, 2168, 437, 2437, 2263, 439, 2197, 2199, 3225, 2363, 2312, 381, 428, 3151, 3152, 3163, 3178, 339, 426, 412, 3173, 3093, 342, 3132, 2338, 3154, 3155, 3161, 3162, 3175, 3174, 9, 3180, 429, 431, 2354, 2375, 896, 898, 3137, 2441, 1671, 2444, 2448, 3182, 2591, 3130, 3153, 2152, 2447, 1678, 1681, 1697, 1699, 1691, 1701, 346, 2505, 2472, 1815, 2470, 2484, 1818, 1724, 2473, 3195, 3186, 2547, 2476, 2616, 3148, 531, 1735, 2474, 432, 857, 353, 533, 2479, 3140, 2579, 859, 1814, 2572, 14, 534, 2599, 536, 537, 2596, 2605, 2604, 865, 867, 2603, 3179, 2610, 2620, 2609, 3149, 351, 3212, 3216, 846, 3187, 1737, 13, 3226, 3136, 1359, 1328, 359, 1352, 1349, 1351, 16, 3230, 3198, 982, 397, 393, 2307, 1707, 2379, 541, 2087, 2207, 12, 17, 3231, 1673, 3190, 3188, 3168, 2298, 2300, 375, 3223, 2079, 2095, 2077, 3176, 3147, 2597, 1712, 2313, 2134, 1713, 2486, 2200, 2097, 2143, 2101, 1694, 1683, 1674, 3138, 1676, 847, 960, 2102, 2104, 1733, 1734, 2335, 2622, 2336, 2126, 2355, 1732, 2267, 2185, 3170, 330, 5, 2156, 2217, 2275, 2188, 860, 2608, 2270, 2265, 2552, 2189, 3228, 6, 2209, 2282, 434, 442, 3158, 864, 3144, 2278, 2449, 2221, 3191, 3192, 2283, 3229, 3159, 2601, 2602, 1336, 3194, 856, 2318, 3089, 2460, 2174, 3157, 2461, 2462, 2463, 862, 2177, 416, 3211, 3184, 2251, 1333, 3196, 3146, 863, 2465, 18, 418, 532, 2180, 2181, 2182, 885, 3222, 2466, 2467, 2469, 2183, 977, 2220, 318, 3164, 3199, 3200, 2380, 2403, 3202, 1346, 1347, 3207, 3221, 317, 3208, 3219, 3165, 2351, 984, 2352, 2408, 2424, 2481, 438, 983, 2195, 2196, 2365, 3201, 440, 2198, 2485, 3218, 3166, 2590, 2304, 1705, 2412, 2357, 2376, 3092, 388, 394, 2361, 2353, 2429, 2594, 2575, 2308, 345, 2381, 3318, 2382, 2386, 2414, 399, 2322, 2369, 2404, 2613, 1666, 3135, 19, 3129, 3142, 3131, 2, 321, 363, 2606, 3145, 1693, 2502, 2559, 401, 3172, 3167, 2587, 2577, 2578, 2410, 2436, 398, 2432, 2406, 2416, 430, 392, 2641, 2585, 2420, 2545, 422, 424, 2417, 978, 386, 976, 979, 2497, 2570, 2595, 2493, 2480, 1343, 1331, 413, 2540, 414, 3090, 2544, 2580, 2557, 852, 853, 2534, 888, 889, 890, 876, 2639, 877, 874, 880, 871, 872, 873, 897, 893, 899, 419, 1342, 390, 2624, 3097, 894, 895, 3094, 1354, 1357, 1358, 1330, 1353, 1356, 2550, 2588, 850, 868, 3095, 1345, 1332, 1360, 1355, 1350, 1685, 2541, 2560, 2565, 2567, 886, 869, 1327, 1698, 1692, 900, 851, 882, 1687, 1677, 1708, 1668, 2584, 2573, 1719, 849, 879, 1684, 1686, 1682, 884, 1670, 891, 1731, 1730, 2619, 387, 1696, 2621, 2148, 2261, 2286, 1703, 1706, 2288, 2135, 2268, 2144, 2112, 2093, 2116, 2115, 2123, 2128, 2290, 2124, 2153, 2208, 2145, 2297, 2299, 2289, 2292, 2295, 2215, 2301, 2302, 2279, 2274, 2434, 2285, 2291, 2218, 2287, 2366, 2294, 2284, 2262, 2273, 1715, 1689, 1675, 1667, 2356, 2269, 1669, 2439, 2254, 2255, 1672, 1690, 2384, 2259, 2258, 1736, 1721, 1816, 1817, 1809, 1810, 1812, 1725, 2358, 2359, 2418,1728, 2378, 2561, 1813, 2583, 2409, 2390, 2564, 2612, 2433, 2422, 2391, 2405, 2646, 2638, 2546, 2402, 2398, 2413, 2430, 2431, 2399, 2401, 2407, 2435, 2504, 2446, 2423, 2492, 2494, 2503, 2495, 2542, 2618, 2554, 2555, 2556, 2271, 2321, 2320, 2326, 2571, 2092, 2090, 2543, 2103, 2566, 2132, 2202, 2131, 2089, 2098, 2214, 2161, 2113, 2137, 2149, 2389, 2216, 2096, 2099, 2276, 2081, 2100, 2094, 2118, 2084, 2080, 2086, 2160, 2091, 2211, 2210, 2130, 2120, 2147, 2162, 2488, 2281, 2548, 2562, 2373, 2364, 2367, 2332, 2362, 2293, 2372, 2257, 2280, 2383, 2377, 2491, 2374, 2277, 2496, 2260, 2370, 2385, 2648, 2314, 2411, 2643, 2645, 2642, 2563,2568, 2574, 2219, 1702, 2296, 2303, 2114, 2082, 2129]], ["100% combed cotton. A feminine cut featuring a v-neck in extended sizes that are all designed to wear, wash and age well.", [2667, 2660, 2662, 2663, 2664, 2673, 2655, 2656, 2657, 2674, 2659, 2661, 2668, 2669, 2671, 2672, 2658, 2665, 2666, 2670]], ["Moisture management/antimicrobial performance fabric, 100% Polyester", [3291, 3271, 3296, 3280, 3295, 3278, 3287, 3315, 3294, 3293, 3313, 3268, 3273, 3272, 3269, 3292, 3279, 3285, 3281, 3267, 3283, 3286, 3289, 3290, 3297, 3270, 3301, 3312, 3298, 3314, 3274, 3277, 3288, 3311, 3299, 3276, 3275, 3284, 3302, 3282, 3300, 3316]], ["100% combed ringspun cotton (Heather is a cotton/poly blend) with a heavier weight than the Classic T-Shirt for a timeless fit. The perfect fabric for a graphic tee in a standard cut up to 5XL - and still the softest in the business.", [2878, 2870, 2845, 2869, 2858, 2879, 2856, 2863, 2872, 2860, 2865, 2874, 2868, 2885, 2887, 2883, 2877, 2847, 2866, 2881, 2864, 2875, 2876, 2855, 2859, 2850, 2880, 2890, 2886, 2891, 2889, 2857, 2841, 2849, 2853, 2873, 2871, 2836, 2867, 2851, 2852, 2854, 2861, 2862, 2842, 2882, 2884, 2840, 2843, 2846, 2844, 2839, 2888, 2837, 2838, 2848]], ["100% Cotton. Lightweight with the perfect cut. Fabric drapes loosely across body for a comfortable, relaxed fit. Due to availability, some colors may be a poly-viscose blend.", [1761, 1762, 1778, 1779, 1772, 1773, 1782, 1758, 1763, 1764, 1766, 1759, 1760, 1774, 1768, 1770, 1771, 1775, 1776, 1777, 1781, 1780, 1765, 1767, 1769]], ["Polyester/cotton/rayon blend. A lighter, super soft tee with stretch.", [1820, 1008, 1049, 1019, 836, 1010, 1027, 1018, 837, 844, 806, 823, 1046, 1001, 830, 831, 993, 998, 1015, 1037, 988, 808, 1003, 994, 809, 1011, 989, 990, 1006, 1005, 995, 997, 858, 1007, 1009, 1016, 1017, 1020, 815, 1038, 817, 1031, 1024, 1025, 1028, 1034, 812, 810, 811, 816, 820, 821, 828, 814, 818, 813, 841, 839, 843, 842, 1021, 1022, 834, 835, 838, 840, 845, 1026, 833, 1048, 1030, 1032, 1033, 1040, 1041, 1042, 1035, 1029, 1023, 1036, 1039, 1045, 1047, 807, 1002, 1004, 1012, 1013, 1014, 822, 1000, 829, 832, 824, 825, 827, 826, 1043, 1044, 819, 992, 996, 985, 986, 987, 991]], ["100% combed cotton. The perfect fabric for a graphic tee and the softest in the business.", [3358, 3344, 3351, 3364, 3355, 3338, 3367, 3352, 3365, 3342, 3345, 3349, 3369, 3348, 3361, 3343, 3363, 3368, 3370, 3346, 3347, 3353, 3371, 3340, 3341, 3362, 3337, 3359, 3350, 3356, 3339, 3336, 3354, 3366, 3360, 3357]], ["100% combed ringspun cotton. A perfectly comfortable combination of classic cut and vintage style.", [2784, 2779, 2789, 2774]], ["100% combed cotton.  A feminine cut in extended sizes that are all designed to wear, wash and age well.", [1924, 1925, 1937, 1932, 1933, 1928, 1931, 1935, 1934, 1939, 1941, 1926, 1927, 1929, 1930, 1936, 1922, 1923, 1938, 1940]], ["60% Cotton / 40% Polyester. A heathered, feminine cut in extended sizes that are all designed to wear, wash and age well.\r\n", [1943, 1945, 1942, 1944, 2676, 2677, 2678, 2675]], ["Cotton/Poly blend.  Heathered versions of our classic tee colors -- the softest shirts in the business and the perfect weight for a graphic tee.", [916, 2340, 2239, 2228, 2141, 2349, 2519, 2527, 2227, 2508, 2347, 2230, 923, 902, 925, 2427, 2627, 2525, 2139, 913, 2426, 2142, 2229, 2234, 2428, 2509, 2344, 2345, 1750, 2517, 2532, 901, 1751, 2632, 2633, 912, 2343, 2231, 2510, 2629, 2514, 2516, 2233, 2235, 926, 929, 930, 2242, 903, 905, 921, 2243, 2342, 2246, 904, 906, 917, 918, 911, 908, 909, 2526, 2350, 2520, 2528, 2530, 2531, 2631, 2513, 2521, 2523, 2515, 2512, 2628, 2518, 919, 920, 922, 924, 914, 915, 907, 910, 927, 928, 2533, 2625, 1746, 2626, 2240, 2238, 2630, 2222, 2237, 2241, 2244, 2524, 1753, 1748, 1752, 2339, 1747, 1749, 1756, 1757, 1754, 1755, 2511, 2529, 2247, 2232, 2140, 2223, 2224, 2245, 2236, 2522, 2225, 2226, 2348, 2425, 2346, 2341, 2634, 2636, 2635]], ["60% Organic Cotton, 40% Recycled Poly RPET - approximately 4 recycled RPET bottles are used per shirt. A heavier weight than the Classic T-Shirt, for enhanced comfort and durability. Your favorite t-shirt, made better. ", [2954, 2959, 2986, 2981, 2988, 2976, 2956, 2977, 2975, 2978, 2958, 2991, 2992, 2960, 2982, 2989, 2993, 2967, 2971, 2973, 2974, 2980, 2952, 2969, 2984, 2987, 2970, 2972, 2955, 2962, 2957, 2985, 2968, 2953, 2983, 2965, 2979, 2961, 2963, 2990, 2964, 2966]], ["100% Combed Ring-Spun Cotton. A heavyweight, breathable fabric with a smooth, comfortable feel. Designed with a relaxed, boxy fit and mid-length hem for a modern, easygoing silhouette.", [3535, 3500, 3526, 3542, 3529, 3510, 3518, 3507, 3537, 3539, 3538, 3504, 3540, 3520, 3511, 3544, 3519, 3506, 3546, 3534, 3521, 3523, 3508, 3516, 3499, 3528, 3545, 3531, 3524, 3536, 3502, 3527, 3503, 3532, 3543, 3522, 3515, 3514, 3530, 3513, 3505, 3512]], ["90% Combed Ring-Spun Cotton, 10% Polyester. A heavyweight, breathable fabric with a smooth, comfortable feel. Designed with a relaxed, boxy fit and mid-length hem for a modern, easygoing silhouette.", [3541, 3517, 3533, 3509, 3525, 3501]], ["100% Combed Ring Spun Cotton. This heavyweight, breathable fabric offers a smooth, comfortable feel. Designed with a relaxed fit, and drop shoulder for an easy, laid-back look. ", [2074, 1848, 2068, 1838, 1837, 1836, 1825, 1849, 2072, 3024, 3027, 3035, 1831, 1842, 3032, 1830, 1827, 1845, 1841, 1846, 1832, 1833, 1835, 2075, 3029, 3031, 3018, 3019, 2069, 3028, 3033, 3022, 3030, 1840, 1844, 1847, 1828, 1839, 1834, 1843, 1829, 1826, 3023, 3040, 2076, 2070, 2071, 2073, 3041, 3036, 3025, 3026, 3021, 3037, 3038, 3020, 3034, 3039, 3042]], ["This tee is made from 100% heavyweight cotton and garment-dyed for a soft, broken-in feel. It features a relaxed fit, crew neckline, and a slightly cropped length. Each piece is one of a kind thanks to the dye process. Durable and easy to wear.", [3567, 3578, 3568, 3616, 3573, 3569, 3595, 3571, 3589, 3626, 3576, 3572, 3581, 3574, 3575, 3592, 3583, 3591, 3577, 3579, 3587, 3582, 3622, 3602, 3614, 3580, 3625, 3590, 3588, 3585, 3601, 3598, 3586, 3603, 3594, 3599, 3596, 3611, 3608, 3606, 3604, 3605, 3617, 3609, 3624, 3607, 3621, 3613, 3619, 3623, 3628, 3627, 3629, 3612, 3618, 3593, 3620, 3610, 3615, 3570, 3597, 3600, 3584]]],
                         "tooltips": [{
                             "type": "tee_outline",
                             "header": "TEE TIP!",
@@ -5275,8 +5233,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 "display_name": "Red",
                                 "hex": "#c62b29",
                                 "sort_order": 110,
-                                "slug": "red",
-                                "classes": "",
+                                "slug": "red","classes": "",
                                 "image": null,
                                 "seasonal": false
                             },
@@ -5289,8 +5246,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 "slug": "hot_pink",
                                 "classes": "",
                                 "image": null,
-                                "seasonal": false
-                            },
+                                "seasonal": false},
                             "31": {
                                 "id": 31,
                                 "name": "Dark Grey",
@@ -5461,8 +5417,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 "name": "Acid Black",
                                 "display_name": "Acid Black",
                                 "hex": "#463f46",
-                                "sort_order": 72,
-                                "slug": "acid_black",
+                                "sort_order": 72,"slug": "acid_black",
                                 "classes": "heather",
                                 "image": null,
                                 "seasonal": false
@@ -5616,8 +5571,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 "display_name": "Purple",
                                 "hex": "#5e366e",
                                 "sort_order": 380,
-                                "slug": "purple",
-                                "classes": "",
+                                "slug": "purple","classes": "",
                                 "image": null,
                                 "seasonal": false
                             },
@@ -5630,8 +5584,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 "slug": "vintage_black",
                                 "classes": "heather",
                                 "image": null,
-                                "seasonal": false
-                            },
+                                "seasonal": false},
                             "43": {
                                 "id": 43,
                                 "name": "Navy Heather",
@@ -5784,8 +5737,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                 "slug": "tennessee_orange",
                                 "classes": "",
                                 "image": null,
-                                "seasonal": false
-                            },
+                                "seasonal": false},
                             "109": {
                                 "id": 109,
                                 "name": "Raspberry Sorbet",
@@ -6076,7 +6028,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 });
             </script>
         <style>
-        /* === PALU4D MAIN FIXED FOOTER — FUCHSIA WIND === */
+        /* === NOTA4D MAIN FIXED FOOTER — FUCHSIA WIND === */
         .p4d-fixed-footer{position:fixed;right:0;bottom:0;left:0;z-index:99;isolation:isolate;overflow:hidden;display:flex;align-items:center;justify-content:space-evenly;gap:7px;min-height:76px;padding:10px max(8px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));border-top:1px solid rgba(255,139,197,.7);border-radius:22px 22px 0 0;background:radial-gradient(circle at 50% -80%,rgba(255,113,183,.27),transparent 56%),linear-gradient(180deg,rgba(83,0,39,.98) 0%,rgba(29,0,15,.99) 52%,#0c0007 100%);box-shadow:0 -8px 28px rgba(255,18,117,.3),0 -1px 0 rgba(255,255,255,.13),inset 0 1px 0 rgba(255,255,255,.12),inset 0 18px 28px rgba(255,35,132,.06);font-family:"Poppins","Segoe UI",sans-serif;color:#fff;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 
         /* Angin fuchsia utama dari kiri ke kanan */
@@ -6133,27 +6085,27 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         <div class="p4d-fixed-footer">
 
             <a href="https://nota4dsemangat.site/" target="_blank" rel="nofollow noopener noreferrer">
-                <img src="https://iili.io/no3wBrF.th.webp" alt="Promo PALU4D MAIN">
+                <img src="https://iili.io/no3wBrF.th.webp" alt="Promo NOTA4D MAIN">
                 PROMO
             </a>
 
             <a href="https://nota4dsemangat.site/" target="_blank" rel="nofollow noopener noreferrer">
-                <img src="https://iili.io/no3wBrF.th.webp" alt="Login PALU4D MAIN">
+                <img src="https://iili.io/no3wBrF.th.webp" alt="Login NOTA4D MAIN">
                 LOGIN
             </a>
 
             <a href="https://nota4dsemangat.site/" target="_blank" rel="nofollow noopener noreferrer" class="tada">
-                <img src="https://iili.io/no3wBrF.th.webp" alt="Daftar PALU4D MAIN">
+                <img src="https://iili.io/no3wBrF.th.webp" alt="Daftar NOTA4D MAIN">
                 DAFTAR
             </a>
 
             <a href="https://nota4dsemangat.site/" target="_blank" rel="nofollow noopener noreferrer">
-                <img src="https://iili.io/no3wBrF.th.webp" alt="WhatsApp PALU4D MAIN">
+                <img src="https://iili.io/no3wBrF.th.webp" alt="WhatsApp NOTA4D MAIN">
                 WHATSAPP
             </a>
 
             <a href="https://nota4dsemangat.site/" target="_blank" rel="nofollow noopener noreferrer">
-                <img src="https://iili.io/no3wBrF.th.webp" alt="Live Chat PALU4D MAIN">
+                <img src="https://iili.io/no3wBrF.th.webp" alt="Live Chat NOTA4D MAIN">
                 LIVE CHAT
             </a>
 
@@ -6182,7 +6134,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                     <button
                         type="button"
                         class="p4d-close"
-                        aria-label="Tutup popup PALU4D MAIN"
+                        aria-label="Tutup popup NOTA4D MAIN"
                         onclick="closeBibit4dPopup()"
                     >×</button>
 
@@ -6191,7 +6143,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                             <img
                                 class="p4d-logo"
                                 src="https://iili.io/no3eq1S.md.webp"
-                                alt="Logo PALU4D MAIN"
+                                alt="Logo NOTA4D MAIN"
                             >
                         </div>
 
@@ -6205,7 +6157,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                         <img
                             class="p4d-banner"
                             src="https://i.ibb.co/s9dKWDVt/image.png"
-                            alt="Main Yuk di PALU4D Platform Togel Online dan Toto Macau"
+                            alt="Main Yuk di NOTA4D Platform Togel Online dan Toto Macau"
                         >
                     </div>
 
@@ -6253,7 +6205,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                     </div>
 
                     <div class="p4d-footer">
-                        <span>© 2026 PALU4D MAIN · SEO Marski x SMA303</span>
+                        <span>© 2026 NOTA4D MAIN · SEO Marski x SMA303</span>
                         <span class="p4d-footer-badge">18+ · Main Terkontrol</span>
                     </div>
 
