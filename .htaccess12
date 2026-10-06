@@ -1,0 +1,53 @@
+# ----------------------------------------------------------
+# .htaccess for multifunctional-publishing.com (OJS)
+# Security + SEO Optimized Version
+# ----------------------------------------------------------
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Force HTTPS and remove www
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.multifunctional-publishing\.com [NC]
+RewriteRule ^(.*)$ https://multifunctional-publishing.com/$1 [L,R=301]
+
+# Set canonical header for all responses (SEO uchun)
+Header always set Link "<https://multifunctional-publishing.com%{REQUEST_URI}>; rel=\"canonical\""
+
+# Ensure UTF-8 encoding (muvofiqlik va SEO uchun)
+AddDefaultCharset UTF-8
+
+# Allow access to robots.txt and sitemap (Google uchun)
+<Files "google17bb8a0ff9cc815c.html">
+    Allow from all
+</Files>
+
+<Files "robots.txt">
+    Allow from all
+</Files>
+
+<Files "sitemap.xml">
+    Allow from all
+</Files>
+
+# Protect sensitive files
+<FilesMatch "\.(inc\.php|conf|config|sql|bak|sh|git|env|log)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Disable directory browsing
+Options -Indexes
+
+# Prevent script execution in uploads or public folders
+<Directory "/home/multifunctional/public_html/public">
+    <FilesMatch "\.(php|pl|py|jsp|asp|sh|cgi)$">
+        Order allow,deny
+        Deny from all
+    </FilesMatch>
+</Directory>
+
+# OJS rewrites (asosiy yo‘naltirish)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
