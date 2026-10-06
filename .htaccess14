@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# JANGAN redirect file verifikasi Google
+RewriteRule ^google17bb8a0ff9cc815c\.html$ - [L]
+
+# HTTPS + non-www untuk URL lainnya
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.multifunctional-publishing\.com$ [NC]
+RewriteRule ^(.*)$ https://multifunctional-publishing.com/$1 [R=301,L]
+
+# File/folder yang benar-benar ada jangan diteruskan ke OJS
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# OJS
+RewriteRule ^ index.php [QSA,L]
